@@ -1,0 +1,434 @@
+header {
+	@include trans;
+	top: 0;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background: white;
+		box-shadow: 0 0 15px rgba(0,0,0,0.15);
+
+	@media screen and (min-width: $mediumlargedevice) {
+		height: 140px;
+	}
+
+	// Logo
+	.logo {
+		position: absolute;
+	    left: 20px;
+	    top: 15px;
+
+	    @media screen and (min-width: $mediumlargedevice) {
+		    left: 40px;
+		    top: 55px;
+	    }
+	}
+
+	.menu-row {
+		display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-flex-wrap: nowrap;
+	    -ms-flex-wrap: nowrap;
+	    flex-wrap: nowrap;
+	    -webkit-align-content: stretch;
+	    -ms-flex-line-pack: stretch;
+	    align-content: stretch;
+	    -webkit-align-items: stretch;
+	    -ms-flex-align: stretch;
+	    align-items: stretch;
+	}
+
+	.col-50 {
+	   -webkit-flex: 0 1 50%;
+	    -ms-flex: 0 1 50%;
+	    flex: 0 1 50%;
+	}
+
+	.col-33 {
+	   -webkit-flex: 0 1 33.3333%;
+	    -ms-flex: 0 1 33.3333%;
+	    flex: 0 1 33.3333%;
+	}
+
+	.child-nav {
+		a {
+			display: inline-block;
+			margin: 0 7px;
+		}
+
+		.fa {
+			@include trans;
+			margin: 0 5px 0 0;
+		}
+	}
+
+	// Header After Scroll
+
+	#utility {
+	    position: absolute;
+	    right: 50px;
+	    top: 20px;
+	    color: $teal;
+	    z-index: 999;
+
+	    @media screen and (max-width: $mediumlargedevice) {
+	    	display: none;
+	    }
+
+	    li {
+	    	display: inline-block;
+	    	padding: 5px;
+	    	position: relative;
+	    	top: 160%;
+
+	    	&.locations {
+	    		height: 33px;
+	    	}
+
+			&:hover {
+				ul {
+					@include visible;
+					top: 140%;
+				}
+			}
+
+			.chevron.down:before {
+			    top: -3px;
+			    margin: 0 0 0 5px;
+			}
+
+			// Locations Menu
+			ul {
+				@include trans;
+				@include hidden;
+				position: absolute;
+				left: 50%;
+				top: 120%;
+				background: white;
+				transform: translateX(-50%);
+				box-shadow: 0 0 30px rgba(0,0,0,0.3);
+				width: 525px;
+				z-index: 1;
+				// border-radius: $default-border-radius;
+
+				&.locations-list {
+					padding: 10px;
+					flex-wrap: nowrap;
+				}
+
+				&:before {
+				}
+
+				&:after {
+					// @include pseudo-fill;
+					// @include wt-linear-gradient;
+				}
+
+				li {
+					width: 50%;
+					float: left;
+					margin: 0 !important;
+					text-align: center;
+					padding: 30px 20px;
+					overflow: hidden;
+
+					// &:first-of-type {
+					// 	// border-top-left-radius: $default-border-radius;
+					// 	// border-bottom-left-radius: $default-border-radius;
+					// 	&:after{
+					// 		background: url(/wp-content/uploads/2017/10/germantown-location-bg-v2.jpg);
+					// 		@include bgcover;
+					// 		@include pseudo-fill;
+					// 		opacity: .15;
+					// 	}
+					// }
+
+					// &:nth-of-type(2) {
+					// 	// border-top-right-radius: $default-border-radius;
+					// 	// border-bottom-right-radius: $default-border-radius;
+					// 	&:after{
+					// 		background: url(/wp-content/uploads/2017/04/collierville-location-bg.jpg);
+					// 		@include bgcover;
+					// 		@include pseudo-fill;
+					// 		opacity: .15;
+					// 	}
+					// }
+
+					// &:last-of-type {
+					// 	// border-top-right-radius: $default-border-radius;
+					// 	// border-bottom-right-radius: $default-border-radius;
+					// 	&:after{
+					// 		background: url(/wp-content/uploads/2017/05/midtown-location-bg.jpg);
+					// 		@include bgcover;
+					// 		@include pseudo-fill;
+					// 		opacity: .15;
+					// 	}
+					// }
+
+					h3 {
+						font-size: 1.5em;
+						margin: 0 0 20px;
+					    position: relative;
+					    z-index: 1;
+					}
+
+					p{
+						min-height: 60px;
+					    position: relative;
+					    z-index: 1;
+					    margin: 0 0 20px;
+					    font-size: 18px;
+					}
+
+					.btn {
+						margin: auto;
+						position: relative;
+						z-index: 1;
+						opacity: 1;
+						color: teal !important;
+					}
+				}
+			}
+
+	    	&:first-of-type, &:nth-of-type(2) {
+	    		margin: 0 25px 0 0;
+	    	}
+
+	    	a {
+	    		@include trans;
+	    		color: $grey !important;
+	    		opacity: .7;
+					font-size: 14px;
+					letter-spacing: 0.5px;
+	    		&:hover {
+	    			opacity: 0.4;
+	    		}
+	    	}
+	    }
+
+		// Locations Dropdown
+		.sub-menu__locations {
+			padding: 10px;
+			min-width: 550px;
+
+			.locations-col {
+				position: relative;
+				min-height: 250px;
+
+				&:first-of-type {
+					margin: 0 10px 0 0;
+				}
+
+				&:last-of-type {
+					margin: 0 0 0 10px;
+				}
+
+				h3 {
+					font-size: 1.5em;
+					margin: 0 0 10px;
+				    position: relative;
+				    z-index: 1;
+				    color: white;
+				}
+
+				p{
+					min-height: 60px;
+				    position: relative;
+				    z-index: 1;
+				    margin: 0 0 80px;
+				    font-size: 18px;
+				    color: white;
+				}
+
+				.btn {
+					margin: auto;
+					position: relative;
+					z-index: 1;
+					opacity: 1;
+					color: $teal !important;
+					display: block;
+					text-align: center;
+
+					&:hover {
+						opacity: 1 !important;
+					}
+				}
+
+				.location-wrapper {
+					padding: 15px;
+
+					&:before {
+						content: "";
+						position: absolute;
+						height: 100%;
+						width: 100%;
+						background: rgba(0,0,0,0.35);
+						top: 0;
+						left: 0;
+					}
+
+					a:hover {
+						opacity: .5;
+					}
+				}
+
+				&.midtown-col {
+					background: url(/wp-content/uploads/2017/04/home-location-image-midtown.jpg);
+					@include bgcover;
+				}
+
+				&.germantown-col {
+					background: url(/wp-content/uploads/2017/10/home-location-image-germantown-v2.jpg);
+					@include bgcover;
+				}
+
+				&.collierville-col {
+					background: url(/wp-content/uploads/2017/04/home-location-image-germantown.jpg);
+					@include bgcover;
+				}
+			}
+		}
+	}
+
+	// Main Navigation After Scroll
+	nav {
+    position: absolute;
+    right: 50px;
+    top: 70px;
+    z-index: 9;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: $grey !important;
+
+		// Menu
+		#primary-menu {
+
+			@media screen and (max-width: $mediumlargedevice) {
+				display: none;
+			}
+
+			> li {
+				position: relative;
+				display: inline-block;
+				padding: 0 .75em .75em;
+
+				a {
+					color: $grey;
+				}
+
+				&:last-child {
+					padding-right: 0;
+
+					@media screen and (min-width: 1010px){
+						margin-left: 60px;
+					}
+
+					a {
+						@extend .btn;
+						background: $dkblue;
+						border: 2px solid $dkblue;
+						color: white;
+						letter-spacing: 0.5px;
+
+						&:hover {
+							opacity: 1;
+							background: darken($dkblue, 15%) !important;
+							color: teal !important;
+						}
+					}
+
+					ul {
+						left: auto;
+						right: 0;
+					}
+				}
+
+				.col-padding {
+					padding: 25px;
+				}
+
+
+				// About Us Dropdown
+
+				// Why Choose Us Dropdown
+
+
+				// Treatments Dropdown
+
+
+				// Blog Dropdown
+
+
+				// Get Started Dropdown
+
+
+				// Sub menu
+				> ul {
+					@include trans;
+					@include hidden;
+					position: absolute;
+					left: 50%;
+					top: 120%;
+					background: white;
+					white-space: nowrap;
+					// border-radius: $default-border-radius;
+					transform: translateX(-50%);
+					box-shadow: $default-box-shadow;
+					min-width: 350px;
+
+					&:before {
+						display: block;
+					}
+
+					li {
+						position: relative;
+						padding: 0;
+						overflow: hidden;
+						a {
+							color: $black;
+							font-weight: 700;
+					    text-transform: uppercase;
+					    letter-spacing: 1px;
+							line-height: 2em;
+							&:hover {
+								color: $teal !important;
+							}
+						}
+
+						ul {
+							display: none;
+						}
+
+						&:hover {
+							// Third Level Nav
+							ul {
+								display: block;
+							    position: absolute;
+							    background: white;
+							    padding: 20px;
+							    // border-radius: $default-border-radius;
+							    left: 99%;
+							    transform: translateY(-20%);
+							    box-shadow: $default-box-shadow;
+							    top: 50%;
+							  }
+							}
+						}
+					}
+				}
+			}
+		}
+
+		@media only screen and (max-width: $smalldevice) {
+			display: none;
+		}
+}
+
+.nav-up {
+    top: -80px;
+    @media screen and (min-width: $mediumlargedevice) {
+    	top: -140px;
+    }
+}

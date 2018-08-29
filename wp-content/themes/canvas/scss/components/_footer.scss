@@ -1,0 +1,36 @@
+footer {
+	padding: $sectionpadding/2 5%;
+
+	.wrapper {
+
+		// Widget area (added via WP backend)
+		.footer-widgets {
+			@include clearfix;
+		}
+
+		.credits {
+
+			// Copyright
+			.copy {
+				font-size: .8em;
+			}
+
+			// Neon Canvas logo
+			.nc-logo {
+				@include trans;
+				display: block;
+				margin: 1.2em auto 0;
+				max-width: 120px;
+				opacity: .4;
+
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	@media only screen and (max-width: $mediumdevice) {
+		margin-bottom: $mobilebarheight;
+	}
+}

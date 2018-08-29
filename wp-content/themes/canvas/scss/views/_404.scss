@@ -1,0 +1,28 @@
+body.error404 {
+	background: $base;
+
+	.not-found {
+		padding-top: 12em;
+		padding-bottom: 12em;
+
+		h2 {
+			color: white;
+			margin-bottom: .8em;
+		}
+
+		p {
+			color: white;
+		}
+
+		a {
+			@include btn-hollow (
+				$btn-color: white
+			);
+		}
+
+		@media only screen and (max-width: $mediumdevice) {
+			padding-top: 10em;
+			padding-bottom: 5em;
+		}
+	}
+}

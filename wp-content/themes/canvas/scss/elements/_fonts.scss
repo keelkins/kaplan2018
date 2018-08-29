@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+// Paste custom font icon set below here
+
+// Client Canvas icons
+@font-face {
+	font-family: $canvas-icons;
+	src:url("fonts/canvas.eot");
+	src:url("fonts/canvas.eot?#iefix") format("embedded-opentype"),
+		url("fonts/canvas.woff") format("woff"),
+		url("fonts/canvas.ttf") format("truetype"),
+		url("fonts/canvas.svg#canvas") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="c-"]:before,
+[class*=" c-"]:before {
+	font-family: $canvas-icons;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	speak: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.c-facebook:before {
+  content: "\69";
+}
+.c-google-plus:before {
+  content: "\6a";
+}
+.c-instagram:before {
+  content: "\6b";
+}
+.c-snapchat:before {
+  content: "\6c";
+}
+.c-twitter:before {
+  content: "\6d";
+}
+.c-youtube:before {
+  content: "\6e";
+}
+.c-pinterest:before {
+  content: "\61";
+}
+.c-neon-canvas-horizontal:before {
+  content: "\62";
+}

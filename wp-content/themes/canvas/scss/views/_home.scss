@@ -1,0 +1,22 @@
+body.home {
+
+	section.banner {
+		height: 100vh;
+
+		@media screen and (max-width: $mediumdevice) {
+			height: 600px;
+		}
+
+		.banner-message {
+			position: absolute;
+			z-index: 1;
+			left: 50%;
+			top: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			width: 100%;
+			margin: $navheight/2 0 0;
+			padding: 0 20px;
+			text-align: center;
+		}
+	}
+}

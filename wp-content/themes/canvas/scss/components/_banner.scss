@@ -1,0 +1,19 @@
+// Large hero sections on pages
+.banner {
+	@include bgcover;
+	background-color: $base;
+	overflow: hidden;
+
+	&:before {
+		@include overlay;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		color: white;
+	}
+}

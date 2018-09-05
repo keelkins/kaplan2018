@@ -99,6 +99,14 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/sftp-config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/sftp-config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/wp-activate.php": {
 		"cB": 0,
 		"ft": 8192,

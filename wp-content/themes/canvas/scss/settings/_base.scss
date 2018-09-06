@@ -8,10 +8,17 @@
 	text-rendering: optimizeLegibility;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 body {
 	font-family: $mainfont;
-	font-size: 16px;
 	font-weight: 300;
+	font-size: 20px;
+	color: $grey;
+	line-height: 30px;
+	overflow-x: hidden;
 
 	&.active {
 		overflow: hidden;
@@ -48,7 +55,7 @@ hr {
 section {
 	@include bgcover;
 	position: relative;
-	padding: $sectionpadding 5%;
+	padding: $sectionpadding 0;
 
 	&.full {
 		padding: 0;

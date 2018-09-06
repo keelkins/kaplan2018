@@ -2,6 +2,7 @@
 $primary: #404040;
 $black: black;
 $teal: #93DDDF;
+$dkteal: #26B7BA;
 $dkblue: #222D40;
 $grey: #5D636B;
 $ltteal: #93DDDF;
@@ -20,7 +21,7 @@ $gray-80: lighten($base, 80%);
 $gray-90: lighten($base, 90%);
 
 // Fonts
-$mainfont: "futura-pt",sans-serif;
+$mainfont: "futura-pt",sans-serif; // 300, 600, 700
 $secfont: "futura-pt",sans-serif;
 
 // Icons

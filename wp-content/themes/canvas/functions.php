@@ -98,18 +98,18 @@ function wp_editor_fontsize_filter($buttons) {
         array_unshift($buttons, 'fontsizeselect');
         array_unshift($buttons, 'formatselect');
         return $buttons;
-}    
+}
 add_filter('mce_buttons_2', 'wp_editor_fontsize_filter');
 
 // Load jQuery from Google
 function get_jquery() {
 	if (!is_admin()) {
-		wp_deregister_script('jquery');
-		wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', false, '2.2.4');
-		wp_enqueue_script('jquery');
-		wp_deregister_script('jquery-ui-core');
-		wp_register_script('jquery-ui-core', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', false, '1.12.1');
-		wp_enqueue_script('jquery-ui-core');
+		// wp_deregister_script('jquery');
+		// wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js', false, '2.2.4');
+		// wp_enqueue_script('jquery');
+		// wp_deregister_script('jquery-ui-core');
+		// wp_register_script('jquery-ui-core', 'https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js', false, '1.12.1');
+		// wp_enqueue_script('jquery-ui-core');
 	}
 }
 add_action('init', 'get_jquery');

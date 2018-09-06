@@ -1,31 +1,176 @@
 footer {
-	padding: $sectionpadding/2 5%;
+	padding: $sectionpadding/2 0 0;
+	position: relative;
+	z-index: 2;
+	background: white;
+
+	.section-intro {
+		text-align: center;
+		margin: 0 0 50px;
+
+		img {
+			margin: 0 0 20px;
+		}
+	}
 
 	.wrapper {
+		background: $dkblue;
+		padding: 75px 55px 55px;
+		position: relative;
 
-		// Widget area (added via WP backend)
-		.footer-widgets {
-			@include clearfix;
+		&:first-of-type {
+			margin: 0 0 40px;
 		}
 
-		.credits {
+		&:before {
+			content: "";
+			position: absolute;
+			height: calc(100% - 20px);
+			width: calc(100% - 20px);
+			top: 10px;
+			left: 10px;
+			border: 5px solid white;
+		}
 
-			// Copyright
-			.copy {
-				font-size: .8em;
+		p {
+			color: white;
+			font-size: 14px;
+			line-height: 1.5em;
+
+			span {
+				font-weight: 600;
+				color: $teal;
+				display: block;
 			}
 
-			// Neon Canvas logo
-			.nc-logo {
+			a {
+				color: white;
+			}
+		}
+
+		.gform_wrapper {
+			margin: 0;
+			position: relative;
+			z-index: 3;
+		}
+
+		.gform_body {
+
+			ul.gform_fields {
+				display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+		    -webkit-flex-direction: row;
+		    -ms-flex-direction: row;
+		    flex-direction: row;
+		    -webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		    -webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		    justify-content: space-between;
+		    -webkit-align-content: stretch;
+		    -ms-flex-line-pack: stretch;
+		    align-content: stretch;
+		    -webkit-align-items: stretch;
+		    -ms-flex-align: stretch;
+		    align-items: stretch;
+				width: calc(100% - 150px);
+
+				li.gfield {
+			    margin-top: 0px;
+			    padding-top: 0;
+			    -webkit-order: 0;
+			    -ms-flex-order: 0;
+			    order: 0;
+			    -webkit-flex: 0 1 30%;
+			    -ms-flex: 0 1 30%;
+			    flex: 0 1 30%;
+			    -webkit-align-self: auto;
+			    -ms-flex-item-align: auto;
+			    align-self: auto;
+
+					.gfield_label {
+						display: none;
+					}
+				}
+			}
+
+			input {
+				background: transparent;
+				border: 0 !important;
+				border-bottom: 2px solid white !important;
+				padding: .35em 0 !important;
+				font-weight: 300 !important;
+				font-size: 18px;
+				color: #5D636B;
+				width: 100% !important;
+			}
+
+			.gfield_description {
+		    padding-top: 5px;
+		    font-weight: 300;
+		    font-size: 14px;
+		    color: white;
+			}
+		}
+
+		.gform_footer {
+	    padding: 0;
+	    margin: 0;
+	    clear: both;
+	    width: auto;
+	    display: inline-block;
+	    position: absolute;
+	    top: 20px;
+	    right: 0;
+
+			.gform_button {
 				@include trans;
-				display: block;
-				margin: 1.2em auto 0;
-				max-width: 120px;
-				opacity: .4;
+				height: 44px;
+				font-weight: 600;
+				font-size: 14px !important;
+				color: $dkblue;
+				letter-spacing: 0;
+				text-align: left;
+				line-height: 44px;
+				background: white;
+				padding: 0 20px;
 
 				&:hover {
-					opacity: 1;
+					background: $teal;
 				}
+			}
+		}
+	}
+
+	.credits {
+		padding: 30px;
+		text-align: center;
+		background: rgba(34,45,64,.9);
+
+		// Copyright
+		.copy {
+			font-size: 14px;
+			color: white;
+
+			a {
+				font-weight: 600;
+				color: $teal;
+				text-transform: uppercase;
+			}
+		}
+
+		// Neon Canvas logo
+		.nc-logo {
+			@include trans;
+			display: block;
+			margin: 1.2em auto 0;
+			max-width: 120px;
+			opacity: 1;
+
+			&:hover {
+				opacity: 1;
 			}
 		}
 	}

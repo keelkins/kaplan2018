@@ -6,12 +6,14 @@ h4,
 h5,
 h6 {
 	font-family: $secfont;
-	font-weight: 300;
-	margin: 0;
+	font-weight: 600;
+	margin: 0 0 10px;
 	padding: 0;
+	line-height: 1em;
 }
 
 h1 {
+	font-size: 64px;
 
 	@media only screen and (max-width: $mediumdevice) {
 
@@ -19,6 +21,9 @@ h1 {
 }
 
 h2 {
+	/* State-Of-The-Art Tec: */
+	font-size: 48px;
+	color: $dkblue;
 
 	@media only screen and (max-width: $mediumdevice) {
 
@@ -26,6 +31,10 @@ h2 {
 }
 
 h3 {
+	/* Supreme Technology: */
+	font-weight: 600;
+	font-size: 30px;
+	color: $dkblue;
 
 	@media only screen and (max-width: $mediumdevice) {
 
@@ -48,5 +57,9 @@ h5 {
 
 // Paragraph
 p {
-	
+	font-weight: 300;
+	font-size: 20px;
+	color: $grey;
+	line-height: 30px;
+	margin: 0 0 10px;
 }

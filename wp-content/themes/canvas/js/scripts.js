@@ -47,3 +47,13 @@ jQuery('#side-menu .expand').click(function() {
 jQuery('.close-nav').click(function() {
   jQuery('#side-menu').removeClass('active');
 });
+
+jQuery(window).scroll(function() {
+    var scroll = jQuery(window).scrollTop();
+
+    if (scroll >= 100) {
+        jQuery("header, .logo, #primary-menu").addClass("active");
+    } else {
+        jQuery("header, .logo, #primary-menu").removeClass("active");
+    }
+});

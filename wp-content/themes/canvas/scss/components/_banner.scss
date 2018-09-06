@@ -4,10 +4,6 @@
 	background-color: $base;
 	overflow: hidden;
 
-	&:before {
-		@include overlay;
-	}
-
 	h1,
 	h2,
 	h3,

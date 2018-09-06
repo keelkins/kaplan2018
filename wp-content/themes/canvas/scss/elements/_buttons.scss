@@ -4,7 +4,7 @@ $default-btn-font-size: .9em;
 $default-btn-font-weight: 600;
 $default-btn-text-transform: none;
 $default-btn-letter-spacing: 0;
-$default-btn-bg-color: $base;
+$default-btn-bg-color: $dkblue;
 $default-btn-height: 45px;
 $default-btn-width: auto;
 $default-btn-padding: 0 2em;
@@ -37,6 +37,34 @@ $default-btn-border-color: $default-btn-bg-color;
 	border: 0;
 	outline: 0;
 	cursor: pointer;
+	position: relative;
+
+	span {
+		@include trans;
+		margin: 0 0 0 5px;
+		vertical-align: middle;
+		position: relative;
+		display: inline-block;
+	}
+
+	&:after {
+		position: absolute;
+		content: "";
+		height: calc(100% + 25px);
+		width: calc(100% + 25px);
+		border: 5px solid $teal;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		z-index: -1;
+	}
+
+	&:hover {
+
+		span {
+			transform: translateX(3px);
+		}
+	}
 
 	&:hover {
 		background: darken($btn-bg-color, 5%);
@@ -71,6 +99,21 @@ $default-btn-border-color: $default-btn-bg-color;
 	outline: 0;
 	cursor: pointer;
 
+	span {
+		@include trans;
+		margin: 0 0 0 5px;
+		vertical-align: middle;
+		position: relative;
+		display: inline-block;
+	}
+
+	&:hover {
+
+		span {
+			transform: translateX(3px);
+		}
+	}
+
 	&:hover {
 		color: white;
 		background: $btn-color;
@@ -86,4 +129,25 @@ $default-btn-border-color: $default-btn-bg-color;
 .btn-hollow {
 	@include btn-hollow;
 	@include trans;
+}
+
+.arrow-link {
+	font-weight: 600;
+	font-size: 18px;
+	color: $dkteal;
+
+	span {
+		@include trans;
+		margin: 0 0 0 5px;
+		vertical-align: middle;
+		position: relative;
+		display: inline-block;
+	}
+
+	&:hover {
+
+		span {
+			transform: translateX(3px);
+		}
+	}
 }

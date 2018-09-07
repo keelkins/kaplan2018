@@ -75,16 +75,28 @@ get_header(); ?>
             <a href="#" class="arrow-link">Learn More <span>&rarr;</span></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-            <div class="feature-block">
-              <img src="/wp-content/themes/canvas/img/placeholder-4.jpg" alt="woman smiling">
+            <div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
+              <div class="image-block round">
+                <div class="image-block-outer">
+                  <div class="image-block-inner">
+                    <img src="/wp-content/themes/canvas/img/placeholder-4.jpg" alt="woman smiling">
+                  </div>
+                </div>
+              </div>
               <img src="/wp-content/themes/canvas/img/dkblue-half-circle.svg" alt="decorative colored shape" class="shape shape-right">
             </div>
           </div>
         </div>
         <div class="row middle-xs">
           <div class="col-xs-12 col-sm-6">
-            <div class="feature-block left">
-              <img src="/wp-content/themes/canvas/img/placeholder-5.jpg" alt="woman smiling">
+            <div class="feature-block left wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
+              <div class="image-block">
+                <div class="image-block-outer">
+                  <div class="image-block-inner">
+                    <img src="/wp-content/themes/canvas/img/placeholder-5.jpg" alt="woman smiling">
+                  </div>
+                </div>
+              </div>
               <img src="/wp-content/themes/canvas/img/ltteal-half-circle.svg" alt="decorative colored shape" class="shape shape-left">
             </div>
           </div>
@@ -114,16 +126,28 @@ get_header(); ?>
             <a href="#" class="arrow-link">Learn More <span>&rarr;</span></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-            <div class="feature-block">
-              <img src="/wp-content/themes/canvas/img/placeholder-7.jpg" alt="woman smiling">
+            <div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
+              <div class="image-block">
+                <div class="image-block-outer">
+                  <div class="image-block-inner">
+                    <img src="/wp-content/themes/canvas/img/placeholder-7.jpg" alt="woman smiling">
+                  </div>
+                </div>
+              </div>
               <img src="/wp-content/themes/canvas/img/teal-half-circle.svg" alt="decorative colored shape" class="shape shape-right">
             </div>
           </div>
         </div>
         <div class="row middle-xs feature-row">
           <div class="col-xs-12 col-sm-6">
-            <div class="feature-block left">
-              <img src="/wp-content/themes/canvas/img/placeholder-8.jpg" alt="woman smiling">
+            <div class="feature-block left wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
+              <div class="image-block round">
+                <div class="image-block-outer">
+                  <div class="image-block-inner">
+                    <img src="/wp-content/themes/canvas/img/placeholder-8.jpg" alt="woman smiling">
+                  </div>
+                </div>
+              </div>
               <img src="/wp-content/themes/canvas/img/grey-half-circle.svg" alt="decorative colored shape" class="shape shape-left">
             </div>
           </div>

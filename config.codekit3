@@ -36218,6 +36218,16 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/wp-content\/themes\/canvas\/js\/plugins\/wow-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/canvas\/js\/plugins\/wow-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/wp-content\/themes\/canvas\/js\/scripts.js": {
 		"ft": 64,
 		"ma": 0,
@@ -36413,6 +36423,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/wp-content\/themes\/canvas\/scss\/components\/_testimonials.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/wp-content\/themes\/canvas\/scss\/elements\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/canvas\/scss\/elements\/_animations.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -44414,14 +44437,20 @@
 	"\/wp-content\/themes\/canvas\/js\/scripts.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/canvas\/js\/plugins\/magnific-popup.min.js",
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/canvas\/js\/plugins\/wow-spec.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/canvas\/js\/views\/home.js",
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/canvas\/js\/plugins\/magnific-popup.min.js",
 			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/wp-content\/themes\/canvas\/js\/views\/home.js",
+			"position": 2,
 			"type": 0
 			}
 		]

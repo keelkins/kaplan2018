@@ -1,0 +1,39 @@
+// Image Shape Animation
+@keyframes floatOne {
+  from { transform: rotate(0deg) translateX(10px) rotate(0deg); }
+  to   { transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+.floatOne {
+  -webkit-animation-name: floatOne;
+  animation-name: floatOne;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@keyframes floatOneReverse {
+    from { transform: rotate(0deg) translateX(-10px) rotate(0deg); }
+    to   { transform: rotate(360deg) translateX(-10px) rotate(-360deg); }
+}
+
+.floatOneReverse {
+  -webkit-animation-name: floatOneReverse;
+  animation-name: floatOneReverse;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+
+// Half Circle Animation
+
+.floatShape {
+  -webkit-animation-name: floatShape;
+  animation-name: floatShape;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+@keyframes floatShape {
+    from { transform: rotate(0deg) translateX(-10px) rotate(0deg); }
+    to   { transform: rotate(-360deg) translateX(-10px) rotate(360deg); }
+}

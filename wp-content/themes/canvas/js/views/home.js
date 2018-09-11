@@ -1,7 +1,7 @@
 jQuery(function() {
 
   // Fire Magnific Popup
-	jQuery('.play-btn').magnificPopup({
+	jQuery('.testimonial-wrapper').magnificPopup({
 	  type: 'image'
 	  // other options
 	});

@@ -195,42 +195,42 @@ get_header(); ?>
         </div>
         <div class="testimonials-container">
           <div class="testimonial-column">
-            <div class="testimonial-wrapper">
-              <a href="https://www.youtube.com/watch?v=iIcQpIlj0UQ?autoplay=1&rel=0&showinfo=0" class="mfp-iframe play-btn">
+            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+              <div class="play-btn">
   							<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
-  						</a>
+  						</div>
               <img src="/wp-content/themes/canvas/img/testimonial-placeholder-1.jpg" alt="kyle headshot">
               <p><span>Kyle, 15 -</span> Braces Treatment</p>
-            </div>
+            </a>
           </div>
           <div class="testimonial-column">
-            <div class="testimonial-wrapper">
-              <a href="https://www.youtube.com/watch?v=iIcQpIlj0UQ?autoplay=1&rel=0&showinfo=0" class="mfp-iframe play-btn">
-  							<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
-  						</a>
-              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-2.jpg" alt="monica headshot">
+            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+              <div class="play-btn">
+                <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
+              </div>
+              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-2.jpg" alt="kyle headshot">
               <p><span>Monica, 25 -</span> Invisalign Treatment</p>
-            </div>
+            </a>
           </div>
         </div>
         <div class="testimonials-container">
           <div class="testimonial-column">
-            <div class="testimonial-wrapper">
-              <a href="https://www.youtube.com/watch?v=iIcQpIlj0UQ?autoplay=1&rel=0&showinfo=0" class="mfp-iframe play-btn">
-  							<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
-  						</a>
+            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+              <div class="play-btn">
+                <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
+              </div>
               <img src="/wp-content/themes/canvas/img/testimonial-placeholder-3.jpg" alt="kyle headshot">
               <p><span>Katie, 14 -</span> Braces Treatment</p>
-            </div>
+            </a>            
           </div>
           <div class="testimonial-column">
-            <div class="testimonial-wrapper">
-              <a href="https://www.youtube.com/watch?v=iIcQpIlj0UQ?autoplay=1&rel=0&showinfo=0" class="mfp-iframe play-btn">
-  							<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
-  						</a>
-              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-4.jpg" alt="monica headshot">
-              <p><span>Jin, 22 -</span> Invisalign Treatment</p>
-            </div>
+            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+              <div class="play-btn">
+                <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
+              </div>
+              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-4.jpg" alt="kyle headshot">
+              <p><span>Ling, 22 -</span> Invisalign Treatment</p>
+            </a>
           </div>
         </div>
         <a href="#" class="btn">View All Testimonials <span>&rarr;</span></a>

@@ -52,8 +52,8 @@ jQuery(window).scroll(function() {
     var scroll = jQuery(window).scrollTop();
 
     if (scroll >= 100) {
-        jQuery("header, .logo, #primary-menu").addClass("active");
+        jQuery("header, .logo, #primary-menu, .bgvideo").addClass("active");
     } else {
-        jQuery("header, .logo, #primary-menu").removeClass("active");
+        jQuery("header, .logo, #primary-menu, .bgvideo").removeClass("active");
     }
 });

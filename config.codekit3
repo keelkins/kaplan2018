@@ -35615,6 +35615,49 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/canvas\/img\/carriere-logo.png": {
+		"ft": 32768,
+		"iS": 3794,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/carriere-logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/carriere-white.png": {
+		"ft": 32768,
+		"iS": 3545,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/carriere-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/carriere.png": {
+		"ft": 32768,
+		"iS": 3670,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/carriere.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/carriere.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/carriere.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/canvas\/img\/consult-cta-2.jpg": {
 		"ft": 16384,
 		"iS": 403072,
@@ -35624,6 +35667,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/damon-white.png": {
+		"ft": 32768,
+		"iS": 7891,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/damon-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/damon.png": {
+		"ft": 32768,
+		"iS": 8110,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/damon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/wp-content\/themes\/canvas\/img\/dkblue-half-circle.svg": {
@@ -35708,6 +35773,50 @@
 		"oAP": "\/wp-content\/themes\/canvas\/img\/Header.webmhd.webm",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/canvas\/img\/images.png": {
+		"ft": 32768,
+		"iS": 1979,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/images.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/invisalign-teen.png": {
+		"ft": 32768,
+		"iS": 55134,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/invisalign-teen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/invisalign-white.png": {
+		"ft": 32768,
+		"iS": 16311,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/invisalign-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/invisalign_logo.png": {
+		"ft": 32768,
+		"iS": 22616,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/invisalign_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/themes\/canvas\/img\/kaplanLogo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -35743,6 +35852,27 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/canvas\/img\/lightbulb.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/canvas\/img\/logo-damon-smile.png": {
+		"ft": 32768,
+		"iS": 14578,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/logo-damon-smile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/logo-damon-smile.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/logo-damon-smile.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -35790,12 +35920,34 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-1.1.jpg": {
+		"ft": 16384,
+		"iS": 45980,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-1.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/canvas\/img\/placeholder-1.jpg": {
 		"ft": 16384,
 		"iS": 91502,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-2.1.jpg": {
+		"ft": 16384,
+		"iS": 72233,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-2.1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -35809,6 +35961,17 @@
 		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-3.1.jpg": {
+		"ft": 16384,
+		"iS": 65130,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-3.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -35818,6 +35981,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-4.1.jpg": {
+		"ft": 16384,
+		"iS": 43365,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-4.1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -35845,6 +36019,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-5.1.jpg": {
+		"ft": 16384,
+		"iS": 25817,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-5.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/canvas\/img\/placeholder-5.jpg": {
 		"ft": 16384,
 		"iS": 92848,
@@ -35867,6 +36052,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-6.1.jpg": {
+		"ft": 16384,
+		"iS": 229748,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-6.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/canvas\/img\/placeholder-6.jpg": {
 		"ft": 16384,
 		"iS": 99644,
@@ -35876,6 +36072,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-7.1.jpg": {
+		"ft": 16384,
+		"iS": 46945,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-7.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-7.2.jpg": {
+		"ft": 16384,
+		"iS": 35366,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-7.2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/themes\/canvas\/img\/placeholder-7.jpg": {
@@ -35898,6 +36116,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/canvas\/img\/placeholder-8.1.jpg": {
+		"ft": 16384,
+		"iS": 34224,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/placeholder-8.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/themes\/canvas\/img\/placeholder-8.jpg": {
@@ -35961,6 +36190,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/wp-content\/themes\/canvas\/img\/testimonial-placeholder-1.1.jpg": {
+		"ft": 16384,
+		"iS": 51943,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/canvas\/img\/testimonial-placeholder-1.1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/wp-content\/themes\/canvas\/img\/testimonial-placeholder-1.jpg": {
 		"ft": 16384,

@@ -27,7 +27,7 @@
 // Transitions
 $default-trans-property: all;
 $default-trans-type: ease-in-out;
-$default-trans-speed: .33s;
+$default-trans-speed: .44s;
 $default-trans-delay: 0;
 @mixin trans (
 	$trans-property: $default-trans-property,

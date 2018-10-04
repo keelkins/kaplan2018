@@ -36281,6 +36281,50 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/canvas/img/testimonial-alicia.jpg": {
+		"ft": 16384,
+		"iS": 1016343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/testimonial-alicia.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/testimonial-christopher.jpg": {
+		"ft": 16384,
+		"iS": 1005427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/testimonial-christopher.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/testimonial-daniel.jpg": {
+		"ft": 16384,
+		"iS": 918601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/testimonial-daniel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/testimonial-jill.jpg": {
+		"ft": 16384,
+		"iS": 924564,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/testimonial-jill.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/testimonial-placeholder-1.1.jpg": {
 		"ft": 16384,
 		"iS": 51943,

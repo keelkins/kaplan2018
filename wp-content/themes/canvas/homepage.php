@@ -238,41 +238,41 @@ get_header(); ?>
         </div>
         <div class="testimonials-container">
           <div class="testimonial-column">
-            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+            <a href="https://www.youtube.com/watch?v=x34ZquBEzg0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
               <div class="play-btn">
   							<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
   						</div>
-              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-1.1.jpg" alt="kyle headshot">
-              <p><span>Kyle, 15 -</span> Braces Treatment</p>
+              <img src="/wp-content/themes/canvas/img/testimonial-alicia.jpg" alt="kyle headshot">
+              <p><span>Alicia F. -</span> Braces Treatment</p>
             </a>
           </div>
           <div class="testimonial-column">
-            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+            <a href="https://www.youtube.com/watch?v=HHHg0VIjzkk?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
               <div class="play-btn">
                 <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
               </div>
-              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-1.1.jpg" alt="kyle headshot">
-              <p><span>Monica, 25 -</span> Invisalign Treatment</p>
+              <img src="/wp-content/themes/canvas/img/testimonial-daniel.jpg" alt="kyle headshot">
+              <p><span>Daniel M. -</span> Braces Treatment</p>
             </a>
           </div>
         </div>
         <div class="testimonials-container">
           <div class="testimonial-column">
-            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+            <a href="https://www.youtube.com/watch?v=mp218Uz-xbk?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
               <div class="play-btn">
                 <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
               </div>
-              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-1.1.jpg" alt="kyle headshot">
-              <p><span>Katie, 14 -</span> Braces Treatment</p>
+              <img src="/wp-content/themes/canvas/img/testimonial-jill.jpg" alt="kyle headshot">
+              <p><span>Jill C. -</span> Braces Treatment</p>
             </a>            
           </div>
           <div class="testimonial-column">
-            <a href="https://www.youtube.com/watch?v=uY7wm5LCRB0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+            <a href="https://www.youtube.com/watch?v=WRy15RYF0Mw?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
               <div class="play-btn">
                 <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
               </div>
-              <img src="/wp-content/themes/canvas/img/testimonial-placeholder-1.1.jpg" alt="kyle headshot">
-              <p><span>Ling, 22 -</span> Invisalign Treatment</p>
+              <img src="/wp-content/themes/canvas/img/testimonial-christopher.jpg" alt="kyle headshot">
+              <p><span>Cristopher F. -</span> Braces Treatment</p>
             </a>
           </div>
         </div>

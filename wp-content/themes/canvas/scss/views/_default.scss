@@ -1,3 +1,92 @@
 body.page-template-default {
 
+	section.banner {
+		height: calc(100vh - 157px);
+		margin: 157px 0 0;		
+
+		&.active {
+			margin: 120px 0 0;
+		}
+
+		@media screen and (max-width: $mediumdevice) {
+			height: 550px;
+		}
+
+		.message-wrap-headline {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+			margin: 100px 0 0;
+			padding: 50px;
+			background: #222d4099;
+			z-index: 2;
+			max-width: 620px;
+			text-align: center;
+
+			@media screen and (max-width: $mediumdevice) {
+				bottom: 5%;
+				left: 5%;
+				padding: 20px;
+				max-width: 90%;
+				width: 400px;				
+			}
+
+			h1 {
+				margin: 0;
+			}
+
+			&:before {
+				position: absolute;
+				content: "";
+				height: calc(100% + 25px);
+				width: calc(100% + 25px);
+				border: 5px solid #222d4099;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				z-index: -1;
+			}			
+		}
+	}
+
+	section.content {
+
+		ul {
+			font-size: 16px;
+		}
+
+
+		.rellax {
+
+			@media screen and (max-width: 900px) {
+				display: none;
+			}
+		}		
+
+		.left-parallax-image {
+			background: url(/wp-content/themes/canvas/img/parallax-shape-triangle.svg) no-repeat;
+			width: 370px;
+			height: 370px;
+			position: absolute;
+			top: 40%;
+			left: -60px;
+			z-index: -1;
+		}
+
+		.right-parallax-image {
+			background: url(/wp-content/themes/canvas/img/parallax-shape-half-circle.svg) 0 0/cover no-repeat;
+			width: 179px;
+			height: 190px;
+			position: absolute;
+			top:75%;
+			right: 0;
+			z-index: -1;			
+		}
+
+		.fl-accordion-button-icon {
+			color: $teal;
+			opacity: 1;
+		}
+	}
 }

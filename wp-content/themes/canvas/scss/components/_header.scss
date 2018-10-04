@@ -1,44 +1,61 @@
 header {
-	transition: all 0.33s;
-  -moz-transition: all 0.33s;
-  -webkit-transition: all 0.33s;
-  -o-transition: all 0.33s;
-
+	@include trans;
 	top: 0;
-  height: 80px;
-  width: 100%;
-  position: fixed;
-  z-index: 99;
-  background: white;
-	box-shadow: 0 0 15px rgba(0,0,0,0.15);
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	z-index: 99;
+	background: white;
+	box-shadow: 0 0 15px rgba(0,0,0,0.0);
 
 	@media screen and (min-width: $mediumlargedevice) {
-		height: 187px;
+		height: 157px;
 	}
 
 	&.active {
 		height: 120px;
+		box-shadow: 0 0 15px rgba(0,0,0,0.15);
+
+		@media screen and (max-width: $mediumlargedevice) {
+			height: 80px;
+		}			
+
+		ul#primary-menu { 
+			margin: 0;
+		}
+
+		nav ul#primary-menu>li.treatments-li ul.sub-menu {
+			top: 74px;
+		}
+
+		nav {
+			top: 42px;
+		}
 	}
 
 	// Logo
 	.logo {
 		position: absolute;
-    left: 20px;
-    top: 15px;
+		left: 20px;
+		top: 20px;
 
 	    @media screen and (min-width: $mediumlargedevice) {
-				left: 40px;
-				top: 95px;
+			left: 40px;
+			top: 80px;
 
-				&.active {
-					top: 65px !important;
-				}
+			&.active {
+				top: 65px !important;
+			}
 	    }
 	}
 
 	.utility-wrapper {
 		background: $dkblue;
 		height: 44px;
+
+		@media screen and (max-width: $mediumlargedevice) {
+			display: none;
+		}			
 	}
 
 	#utility-left {
@@ -52,21 +69,21 @@ header {
 	}
 
 	#utility-left, #utility-right {
-    position: absolute;
-    color: $teal;
+		position: absolute;
+		color: $teal;
 		z-index: 999;
-    padding: 0;
-    margin: 0;
-    line-height: 44px;
+		padding: 0;
+		margin: 0;
+		line-height: 44px;
 
-    @media screen and (max-width: $mediumlargedevice) {
-    	display: none;
-    }
+		@media screen and (max-width: $mediumlargedevice) {
+			display: none;
+		}
 
-    li {
-    	display: inline-block;
-    	padding: 0 5px;
-    	position: relative;
+		li {
+			display: inline-block;
+			padding: 0 5px;
+			position: relative;
 			font-size: 14px;
 			color: $teal;
 			letter-spacing: 1.5px;
@@ -76,65 +93,147 @@ header {
 			a {
 				color: $teal;
 			}
-  	}
+		}
 	}
 
 
 
 	// Main Navigation After Scroll
 	nav {
-    position: absolute;
-    right: 50px;
-    top: 44px;
-    z-index: 9;
+		@include trans;
+	    position: absolute;
+	    right: 50px;
+	    top: 28px;
+	    z-index: 9;
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		color: $grey !important;
 
-		// Menu
-		ul#primary-menu {
-			margin: 0;
-			padding: 0;
+	// Menu
+	ul#primary-menu {
+		@include trans;
+		margin: 35px 0 0px;
+		padding: 0;
 
-			@media screen and (max-width: $mediumlargedevice) {
-				display: none;
-			}
+		@media screen and (max-width: $mediumlargedevice) {
+			display: none;
+		}
 
-			&.active {
-
-				> li {
-					line-height: 76px !important;
-
-					&:last-child a {
-						&:after {
-							opacity: 0 !important;
-						}
-					}
-				}
-			}
+		&.active {
 
 			> li {
-				position: relative;
-				display: inline-block;
-				padding: 0 40px 0 0;
-				line-height: 143px;
+				line-height: 76px !important;
 
-				&:hover {
-					ul {
-						@include visible;
+				&:last-child a {
+					&:after {
+						opacity: 0 !important;
 					}
 				}
+			}
+		}
 
-				a {
-					color: $grey;
-					font-weight: 600;
-					font-size: 14px;
-					letter-spacing: 1.17px;
-					position: relative;
+		> li {
+			position: relative;
+			display: inline-block;
+			padding: 0 40px 0 0;
+			line-height: 70px;
+
+			&.treatments-li {
+
+				ul.sub-menu {
+					flex: 1;
+					display: flex;
+					flex-wrap: nowrap;
+					padding: 0;
+					position: absolute;
+					right: 0;
+					left: auto;
+					width: 100%;
+					max-width: 1100px;
+					min-width: 700px;
+					margin: -2px 0 0;
+
+					li {
+						flex: 0 0 33%;
+						padding: 10px 30px;
+						overflow: hidden;
+						text-align: right;	
+
+						&:nth-child(2) {
+							background: rgba(0,0,0,0.1) !important;
+						}
+
+						&:hover {
+							background: none;
+						}
+
+						a {
+							color: $teal;
+							font-weight: 700;
+							text-transform: uppercase;
+
+							&:hover {
+								opacity: .5;
+							}							
+
+							&:before {
+								display: none !important;
+							}
+						}
+
+						ul {
+							flex-wrap: wrap;
+							position: relative;
+							top: auto !important;
+							left: auto;
+							background: transparent !important;
+							transform: none;
+							min-width: auto;
+							margin: 10px 0 0;
+
+							li {
+								flex: 0 0 100%;
+								padding: 0;
+								margin: 0 0 15px;
+
+								&:nth-child(2) {
+									background: transparent !important;
+								}
+
+								a {
+									color: white;
+									font-weight: 400;
+									text-transform: none;
+									flex-wrap: wrap;
+									white-space: initial;
+									line-height: 1em;	
+
+									&:hover {
+										color: $teal;
+									}								
+								}
+							}
+						}					
+					}
 				}
+			}			
 
-				&.menu-item-has-children a:before {
+			&:hover {
+				ul {
+					@include visible;
+				}
+			}
+
+			a {
+				color: $grey;
+				font-weight: 600;
+				font-size: 14px;
+				letter-spacing: 1.17px;
+				position: relative;
+			}
+
+			&.menu-item-has-children a:before {
 			    content: "";
 			    width: 0;
 			    height: 0;
@@ -145,97 +244,79 @@ header {
 			    bottom: -12px;
 			    left: 50%;
 			    transform: translateX(-50%);
+			}
+
+			&:last-child {
+				padding-right: 0;
+
+				a {
+					@extend .btn;
+					background: $dkblue;
+					border: 2px solid $dkblue;
+					color: white;
+					letter-spacing: 0.5px;
+					position: relative;
+
+					span {
+						vertical-align: middle;
+						margin: 0 0 0 5px;
+					}
+
+					&:hover {
+						opacity: 1;
+						background: darken($dkblue, 15%) !important;
+						color: teal !important;
+					}
 				}
 
-				&:last-child {
-					padding-right: 0;
+				ul {
+					left: auto;
+					right: 0;
+				}
+			}
+
+			// Sub menu
+			> ul {
+				@include trans;
+				@include hidden;
+				position: absolute;
+				left: 0;
+				margin-top: -2px;
+		    	top: 100%;
+				white-space: nowrap;
+				background: $dkblue;
+				padding: 20px 25px;
+
+				&:before {
+					display: block;
+				}
+
+				li {
+					position: relative;
+					padding: 0;
+					overflow: hidden;
+					line-height: 1.25em;
 
 					a {
-						@extend .btn;
-						background: $dkblue;
-						border: 2px solid $dkblue;
 						color: white;
-						letter-spacing: 0.5px;
-						position: relative;
-
-						span {
-							vertical-align: middle;
-							margin: 0 0 0 5px;
-						}
+						font-weight: 400;
+						text-transform: none;
+						letter-spacing: 1px;
+						line-height: 2em;
+						text-transform: none;
 
 						&:hover {
-							opacity: 1;
-							background: darken($dkblue, 15%) !important;
-							color: teal !important;
+							color: $teal;
 						}
 					}
 
 					ul {
-						left: auto;
-						right: 0;
+						display: none;
+					}
+
 					}
 				}
-
-				// Sub menu
-				> ul {
-					@include trans;
-					@include hidden;
-					position: absolute;
-					left: 0;
-					margin-top: -2px;
-			    top: 100%;
-					background: white;
-					white-space: nowrap;
-					background: $teal;
-					padding: 10px 15px;
-
-					&:before {
-						display: block;
-					}
-
-					li {
-						position: relative;
-						padding: 0;
-						overflow: hidden;
-						line-height: 1.25em;
-
-						a {
-							color: $dkblue;
-							font-weight: 700;
-					    text-transform: uppercase;
-					    letter-spacing: 1px;
-							line-height: 2em;
-
-							&:hover {
-								opacity: .5;
-							}
-						}
-
-						ul {
-							display: none;
-						}
-
-						&:hover {
-							// Third Level Nav
-							ul {
-								display: block;
-						    position: absolute;
-						    background: white;
-						    padding: 20px;
-						    // border-radius: $default-border-radius;
-						    left: 99%;
-						    transform: translateY(-20%);
-						    box-shadow: $default-box-shadow;
-						    top: 50%;
-							  }
-							}
-						}
-					}
-				}
-			}
+			}			
 		}
-
-		@media only screen and (max-width: $smalldevice) {
-			display: none;
-		}
+	}
 }

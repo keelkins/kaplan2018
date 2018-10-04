@@ -1,5 +1,11 @@
 jQuery(function() {
 
+	// fire magnific popup
+	jQuery('.play-btn').magnificPopup({
+	  type: 'image'
+	  // other options
+	});	
+
   // Fire Magnific Popup
 	jQuery('.testimonial-wrapper').magnificPopup({
 	  type: 'image'

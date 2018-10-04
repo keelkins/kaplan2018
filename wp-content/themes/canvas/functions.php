@@ -156,3 +156,15 @@ function vc_remove_wp_ver_css_js( $src ) {
 }
 add_filter( 'style_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
 add_filter( 'script_loader_src', 'vc_remove_wp_ver_css_js', 9999 );
+
+
+/**
+ * Social media share buttons
+ */
+function wcr_share_buttons() {
+    $url = urlencode(get_the_permalink());
+    $title = urlencode(html_entity_decode(get_the_title(), ENT_COMPAT, 'UTF-8'));
+    $media = urlencode(get_the_post_thumbnail_url(get_the_ID(), 'full'));
+
+    include( locate_template('share-template.php', false, false) );
+}

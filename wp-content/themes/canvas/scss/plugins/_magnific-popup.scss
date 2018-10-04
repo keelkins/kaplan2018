@@ -347,3 +347,14 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+
+.mfp-wrap .mfp-close, .mfp-wrap .mfp-close:active, .mfp-wrap .mfp-close:hover, .mfp-wrap .mfp-close:focus {
+    background: transparent !important;
+    border: none !important;
+    outline: none;
+    position: absolute;
+    top: -40px;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}

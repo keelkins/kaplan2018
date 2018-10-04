@@ -1,0 +1,78 @@
+.shape-cta-block {
+	position: relative;
+	text-align: center;
+	padding: 100px 0;
+
+	h3 {
+		font-size: 40px;
+		margin: 0 0 15px;
+	}
+
+	a {
+		display: table;
+		position: relative;
+		margin: 0 auto;
+		font-size: 14px;
+		text-transform: uppercase;
+		padding: 15px 25px;
+		line-height: 1em;
+		color: $dkblue;
+		border: 2px solid $dkblue;
+		font-weight: 700;	
+
+		&:hover {
+			background: rgba(255,255,255,0.75);
+		}	
+	}
+
+	.shape-wrapper {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		max-width: 210px;
+		width: 100%;
+		transform: translateX(-50%) translateY(-50%);
+		z-index: -1;
+
+		img {
+			position: relative;
+			animation: wiggle 6s ease infinite;
+		}										
+	}	
+
+	&:nth-child(2) {
+		img {
+			animation-delay: -1s;
+		}
+	}
+
+	&:nth-child(3) {
+		img {
+			animation-delay: -2s;
+		}
+	}
+
+	&:nth-child(4) {
+		img {
+			animation-delay: -3s;
+		}
+	}
+
+	&:nth-child(5) {
+		img {
+			animation-delay: -4s;
+		}
+	}
+
+	&:nth-child(6) {
+		img {
+			animation-delay: -5s;
+		}
+	}
+
+	&:nth-child(7) {
+		img {
+			animation-delay: -6s;
+		}
+	}	
+}

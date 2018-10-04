@@ -1,7 +1,7 @@
 // Large hero sections on pages
 .banner {
+	@include trans;
 	@include bgcover;
-	background-color: $base;
 	overflow: hidden;
 
 	h1,

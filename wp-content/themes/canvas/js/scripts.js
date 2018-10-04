@@ -51,9 +51,20 @@ jQuery('.close-nav').click(function() {
 jQuery(window).scroll(function() {
     var scroll = jQuery(window).scrollTop();
 
-    if (scroll >= 100) {
-        jQuery("header, .logo, #primary-menu, .bgvideo").addClass("active");
+    if (scroll >= 250) {
+        jQuery("header, .logo, #primary-menu, .bgvideo, .banner").addClass("active");
     } else {
-        jQuery("header, .logo, #primary-menu, .bgvideo").removeClass("active");
+        jQuery("header, .logo, #primary-menu, .bgvideo, .banner").removeClass("active");
     }
 });
+
+// Make Entire Div Clickable 
+
+jQuery(".blog article").click(function() {
+  window.location = jQuery(this).find("a").attr("href"); 
+  return false;
+});
+
+
+// Rellax Scroll
+var rellax = new Rellax('.rellax');

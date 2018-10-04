@@ -7,12 +7,20 @@
 			li.gfield {
 				padding-right: 0;
 
+				&.no-label {
+					label,
+					label.gfield_label {
+						display: none !important;
+					}					
+				}
+
 				// Labels
 				label,
 				label.gfield_label {
 					font-family: $mainfont;
-					font-weight: 300;
-					font-size: .8em;
+					font-weight: 700;
+					font-size: 18px;
+					color: $teal;
 
 					// Required marks
 					.gfield_required {
@@ -28,11 +36,14 @@
 					textarea {
 						@include trans;
 						font-family: $mainfont;
-						font-size: .9em;
-						padding: .6em;
+						font-size: 18px;
+						padding: 1.25em;
 						max-width: 100%;
 						outline: 0;
 						border: solid 1px $gray-70;
+						width: 100%;
+						font-weight: 400;
+						margin: 0 0 15px;						
 
 						&:focus {
 							border-color: $base;
@@ -67,6 +78,7 @@
 	}
 
 	.gform_footer {
+		margin: 0 !important;
 
 		// Buttons
 		input[type="submit"] {

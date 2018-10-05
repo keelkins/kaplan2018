@@ -42,14 +42,15 @@
 
 	<div class="utility-wrapper">
 		<ul id="utility-left">
-			<li>CALL TODAY | <a href="tel:9012090647"><i class="fa fa-phone" aria-hidden="true"></i> 770.758.5561</a>&nbsp;</li>
+			<li>CALL TODAY | <a href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true"></i> 770.458.5561</a>&nbsp;</li>
 		</ul>
 		<ul id="utility-right">
-			<li><a href="https://twitter.com/jkaplanortho">TWITTER | </a></li>
+<!-- 			<li><a href="https://twitter.com/jkaplanortho">TWITTER | </a></li>
 			<li><a href="https://www.facebook.com/kaplanorthodontics">FACEBOOK | </a></li>
 			<li><a href="https://www.instagram.com/kaplanorthodontics">INSTAGRAM | </a></li>
 			<li><a href="#">YELP | </a></li>
-			<li><a href="#">GOOGLE +</a></li>
+			<li><a href="#">GOOGLE +</a></li> -->
+			<li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> 
 		</ul>
 	</div>
 

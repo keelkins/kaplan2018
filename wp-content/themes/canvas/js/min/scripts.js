@@ -30,7 +30,7 @@ jQuery("#side-menu #primary-menu li").each(function(){1<=jQuery(this).children("
 // Show Child Pages When Toggle is Clicked
 jQuery("#side-menu .expand").click(function(){jQuery(this).parent().children("ul").toggleClass("active"),jQuery(this).toggleClass("active")}),
 // Hide Mobile Nav
-jQuery(".close-nav").click(function(){jQuery("#side-menu").removeClass("active")}),jQuery(window).scroll(function(){var e;250<=jQuery(window).scrollTop()?jQuery("header, .logo, #primary-menu, .bgvideo, .banner").addClass("active"):jQuery("header, .logo, #primary-menu, .bgvideo, .banner").removeClass("active")}),
+jQuery(".close-nav").click(function(){jQuery("#side-menu").removeClass("active")}),jQuery(window).scroll(function(){var e;250<=jQuery(window).scrollTop()?jQuery("header, .logo, #primary-menu").addClass("active"):jQuery("header, .logo, #primary-menu").removeClass("active")}),
 // Make Entire Div Clickable 
 jQuery(".blog article").click(function(){return window.location=jQuery(this).find("a").attr("href"),!1});
 // Rellax Scroll

@@ -12,23 +12,23 @@ body.home {
 
 			video {
 				@include trans;
-				margin: 156px 0 0;
+				margin: 119px 0 0;
 
 				@media screen and (max-width: $mediumlargedevice) {
 					margin: 80px;
 				}				
 			}
 
-			&.active {
+			// &.active {
 
-				video {
-					margin: 119px 0 0;
+			// 	video {
+			// 		margin: 119px 0 0;
 
-					@media screen and (max-width: $mediumlargedevice) {
-						margin: 80px;
-					}					
-				}
-			}
+			// 		@media screen and (max-width: $mediumlargedevice) {
+			// 			margin: 80px;
+			// 		}					
+			// 	}
+			// }
 		}
 
 		.home-message {
@@ -501,6 +501,7 @@ body.home {
 			margin: 0 0 20px;
 
 			.fa {
+				@include trans;
 				font-size: 30px;
 				color: $teal;
 				margin: 0 5px;
@@ -546,6 +547,17 @@ body.home {
 				-webkit-align-self: auto;
 				-ms-flex-item-align: auto;
 				align-self: auto;
+
+				&:hover {
+
+					.play-btn {
+						opacity: .5;
+					}
+
+					p {
+						background: rgba(34,45,64,0.90);
+					}
+				}
 			}
 		}
 
@@ -560,17 +572,15 @@ body.home {
 			}
 
 			.play-btn {
-		    position: absolute;
-		    top: 50%;
-		    left: 50%;
-		    transform: translateX(-50%)translateY(-50%);
-
-				&:hover {
-					opacity: .5;
-				}
+				@include trans;
+			    position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    transform: translateX(-50%)translateY(-50%);
 			}
 
 			p {
+				@include trans;
 				font-weight: 300;
 				font-size: 24px;
 				color: white;

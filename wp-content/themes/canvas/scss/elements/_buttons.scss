@@ -48,6 +48,7 @@ $default-btn-border-color: $default-btn-bg-color;
 	}
 
 	&:after {
+		@include trans;
 		position: absolute;
 		content: "";
 		height: calc(100% + 25px);

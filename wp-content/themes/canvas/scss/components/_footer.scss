@@ -57,37 +57,47 @@ footer {
 
 			ul.gform_fields {
 				display: -ms-flexbox;
-		    display: -webkit-flex;
-		    display: flex;
-		    -webkit-flex-direction: row;
-		    -ms-flex-direction: row;
-		    flex-direction: row;
-		    -webkit-flex-wrap: wrap;
-		    -ms-flex-wrap: wrap;
-		    flex-wrap: wrap;
-		    -webkit-justify-content: space-between;
-		    -ms-flex-pack: justify;
-		    justify-content: space-between;
-		    -webkit-align-content: stretch;
-		    -ms-flex-line-pack: stretch;
-		    align-content: stretch;
-		    -webkit-align-items: stretch;
-		    -ms-flex-align: stretch;
-		    align-items: stretch;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-flex-direction: row;
+				-ms-flex-direction: row;
+				flex-direction: row;
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+				-webkit-justify-content: space-between;
+				-ms-flex-pack: justify;
+				justify-content: space-between;
+				-webkit-align-content: stretch;
+				-ms-flex-line-pack: stretch;
+				align-content: stretch;
+				-webkit-align-items: stretch;
+				-ms-flex-align: stretch;
+				align-items: stretch;
 				width: calc(100% - 150px);
 
+				@media screen and (max-width: 590px) {
+					width: 100%;
+				}				
+
 				li.gfield {
-			    margin-top: 0px;
-			    padding-top: 0;
-			    -webkit-order: 0;
-			    -ms-flex-order: 0;
-			    order: 0;
-			    -webkit-flex: 0 1 30%;
-			    -ms-flex: 0 1 30%;
-			    flex: 0 1 30%;
-			    -webkit-align-self: auto;
-			    -ms-flex-item-align: auto;
-			    align-self: auto;
+					margin-top: 0px;
+					padding-top: 0;
+					-webkit-order: 0;
+					-ms-flex-order: 0;
+					order: 0;
+					-webkit-flex: 0 1 30%;
+					-ms-flex: 0 1 30%;
+					flex: 0 1 30%;
+					-webkit-align-self: auto;
+					-ms-flex-item-align: auto;
+					align-self: auto;
+
+					@media screen and (max-width: 590px) {
+						-webkit-flex: 0 1 100%;
+						-ms-flex: 0 1 100%;
+						flex: 0 1 100%;
+					}
 
 					.gfield_label {
 						display: none;
@@ -104,25 +114,35 @@ footer {
 				font-size: 18px;
 				color: #5D636B;
 				width: 100% !important;
+
+				@media screen and (max-width: 590px) {
+					margin: 0 !important;
+				}
 			}
 
 			.gfield_description {
-		    padding-top: 5px;
-		    font-weight: 300;
-		    font-size: 14px;
-		    color: white;
+				padding-top: 5px;
+				font-weight: 300;
+				font-size: 14px;
+				color: white;
 			}
 		}
 
 		.gform_footer {
-	    padding: 0;
-	    margin: 0;
-	    clear: both;
-	    width: auto;
-	    display: inline-block;
-	    position: absolute;
-	    top: 20px;
-	    right: 0;
+			padding: 0;
+			margin: 0;
+			clear: both;
+			width: auto;
+			display: inline-block;
+			position: absolute;
+			top: 20px;
+			right: 0;
+
+			@media screen and (max-width: 590px) {
+				top: auto;
+				position: relative;
+				margin: 20px 0 0 !important;
+			}			
 
 			.gform_button {
 				@include trans;
@@ -152,6 +172,7 @@ footer {
 		.copy {
 			font-size: 14px;
 			color: white;
+			margin: 0;
 
 			a {
 				font-weight: 600;
@@ -172,9 +193,5 @@ footer {
 				opacity: 1;
 			}
 		}
-	}
-
-	@media only screen and (max-width: $mediumdevice) {
-		margin-bottom: $mobilebarheight;
 	}
 }

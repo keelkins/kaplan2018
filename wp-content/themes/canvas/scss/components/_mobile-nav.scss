@@ -7,7 +7,7 @@
 	display: none;
 	line-height: $navheight;
 	height: $navheight;
-	width: $navheight;
+	width: 60px;
 	z-index: 8;
 	background: transparent;
 	border: 0;
@@ -15,7 +15,7 @@
 	span {
 		top: 50%;
 		left: 50%;
-		margin-left: -7px;
+		margin-left: -12px;
 	}
 	span,
 	span:before,
@@ -115,7 +115,7 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 
 			a {
 				font-weight: 700;
-				font-size: 1.25em;
+				font-size: 1em;
 				padding: 0 20px;
 				display: block;
 				border-top: $li-border;
@@ -183,11 +183,12 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 			}			
 
 			ul {
-				padding: 0;
 				margin: 0;
 				display: none;
 				position: relative;
 				float: none;
+				background: darken($teal, 5%);
+				padding: 10px 0;				
 
 				&.active {
 					display: block;
@@ -204,12 +205,14 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 					}
 					
 					a {
-						color: $primary;
+						color: white;
 						font-size: 1em;
-						padding: 0 35px;
+						padding: 0 20px;
 						display: block;
 						font-weight: normal;	
-						line-height: 2em;	
+						line-height: 2em;
+						font-size: 16px;	
+						border: 0 !important;
 					}
 
 					// Third Level Nav
@@ -229,11 +232,13 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 
 		li {
 			line-height: 2em;
+			display: inline-block;
 
 			a {
 				color: white;
 				padding: 0 20px;
 				line-height: 1.5em;
+				font-size: 14px;
 
 				&:hover {
 					opacity: .5;

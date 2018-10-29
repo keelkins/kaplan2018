@@ -57,6 +57,7 @@ body.blog {
 			.post-image {
 				min-height: 300px;
 				background-size: cover !important;
+				background-position: center;
 			}	
 
 			h3.entry-title a {
@@ -88,6 +89,7 @@ body.blog {
 				h5 {
 					text-transform: uppercase;
 					margin: 0 0 15px;
+					color: $dkblue;
 				}
 
 				ul {

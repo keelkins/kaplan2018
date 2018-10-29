@@ -1,9 +1,1 @@
-<svg width="102px" height="102px" viewBox="0 0 102 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.65">
-        <g id="Concept-Two" transform="translate(-972.000000, -5120.000000)" fill="#FFFFFF">
-            <g id="Group-11" transform="translate(740.000000, 5090.000000)">
-                <path d="M232.25,131.765625 L232.25,30.234375 L333.710938,81 L232.25,131.765625 Z M243.5,48.4453125 L243.5,113.554688 L308.539062,81 L243.5,48.4453125 Z" id="play"></path>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="102" viewBox="0 0 102 102" width="102" xmlns="http://www.w3.org/2000/svg"><path d="m232.25 131.765625v-101.53125l101.460938 50.765625zm11.25-83.3203125v65.1093755l65.039062-32.554688z" fill="#fff" fill-rule="evenodd" opacity=".65" transform="translate(-232 -30)"/></svg>

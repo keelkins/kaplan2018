@@ -5,49 +5,26 @@
 **/
 get_header(); ?>
 
-<main id="main" class="site-main" role="main">
-
-	<section class="error-404 not-found">
-
-		<div class="page-content">
-			<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'canvas' ); ?></p>
-
-			<?php
-				get_search_form();
-
-				the_widget( 'WP_Widget_Recent_Posts' );
-
-				// Only show the widget if site has multiple categories.
-				if ( canvas_categorized_blog() ) :
-			?>
-
-			<div class="widget widget_categories">
-				<h2 class="widget-title"><?php esc_html_e( 'Most Used Categories', 'canvas' ); ?></h2>
-				<ul>
-				<?php
-					wp_list_categories( array(
-						'orderby'    => 'count',
-						'order'      => 'DESC',
-						'show_count' => 1,
-						'title_li'   => '',
-						'number'     => 10,
-					) );
-				?>
-				</ul>
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+  		<div class="bgvideo">
+  			<video width="100%" height="100%" autoplay muted loop playsinline preload="metadata">
+            <source src="/wp-content/themes/canvas/img/Header.webmhd.webm" type="video/webm">
+            <source src="/wp-content/themes/canvas/img/Header.mp4.mp4" type="video/mp4">
+            <source src="/wp-content/themes/canvas/img/Header.oggtheora.ogv" type="video/ogg">
+  			</video>
+  		</div>
+		<section class="not-found">
+			<div class="section-wrap center">
+				<h2 class="page-title"><?php esc_html_e( 'Oops! Looks like you&rsquo;ve gotten off track.', 'clientcanvas' ); ?></h2>
+				<p>Schedule your free consultation today or check out our homepage.</p>
+				<a class="btn" href="/schedule-a-free-consultation/">Schedule a Free Consultation</a>
+				<a class="btn-hollow" href="/">Go Home</a>
 			</div>
+		</section><!-- .error-404 -->
 
-			<?php
-				endif;
+	</main><!-- #main -->
+</div><!-- #primary -->
 
-				$archive_content = '<p>' . sprintf( esc_html__( 'Try looking in the monthly archives. %1$s', 'canvas' ), convert_smilies( ':)' ) ) . '</p>';
-				the_widget( 'WP_Widget_Archives', 'dropdown=1', "after_title=</h2>$archive_content" );
-
-				the_widget( 'WP_Widget_Tag_Cloud' );
-			?>
-
-		</div>
-	</section>
-
-</main>
 
 <?php get_footer(); ?>

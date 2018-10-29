@@ -7,7 +7,7 @@
 		"uuidString": "7C50A742-8353-4C39-9879-939B5B63544A"
 		}
 	],
-"creatorBuild": "28901",
+"creatorBuild": "28905",
 "files": {
 	"/.ftpconfig": {
 		"cB": 0,
@@ -35605,6 +35605,46 @@
 		"oAP": "/wp-content/themes/canvas/homepage.php",
 		"oF": 0
 		},
+	"/wp-content/themes/canvas/img/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 7198,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 21565,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 3415,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/browserconfig.xml",
+		"oF": 0
+		},
 	"/wp-content/themes/canvas/img/camera.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -35711,6 +35751,61 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/canvas/img/dr-kaplan-and-patient-giving-thumbs-up.jpg": {
+		"ft": 16384,
+		"iS": 660117,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/dr-kaplan-and-patient-giving-thumbs-up.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/dr-kaplan-home-headshot.jpg": {
+		"ft": 16384,
+		"iS": 683979,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/dr-kaplan-home-headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/dr-kaplan-smiling-with-teen-patient.jpg": {
+		"ft": 16384,
+		"iS": 792845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/dr-kaplan-smiling-with-teen-patient.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/dr-kaplan-smiling-with-woman-patient.jpg": {
+		"ft": 16384,
+		"iS": 702253,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/dr-kaplan-smiling-with-woman-patient.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/dr-kaplan-working-on-patient.jpg": {
+		"ft": 16384,
+		"iS": 894806,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/dr-kaplan-working-on-patient.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/easel.png": {
 		"ft": 32768,
 		"iS": 24894,
@@ -35731,6 +35826,46 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/themes/canvas/img/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 845,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1421,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/favicon.ico",
+		"oF": 0
+		},
+	"/wp-content/themes/canvas/img/girl-getting-x-ray.jpg": {
+		"ft": 16384,
+		"iS": 866900,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/girl-getting-x-ray.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/wp-content/themes/canvas/img/grey-half-circle.svg": {
 		"ft": 2097152,
@@ -35817,6 +35952,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/kaplan-orthodontics-staff-smiling-with-patient.jpg": {
+		"ft": 16384,
+		"iS": 135750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/kaplan-orthodontics-staff-smiling-with-patient.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/kaplanLogo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -35897,6 +36043,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/themes/canvas/img/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 4880,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/wp-content/themes/canvas/img/neon-canvas-dark.png": {
 		"ft": 32768,
@@ -36191,6 +36348,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/canvas/img/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/wp-content/themes/canvas/img/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/wp-content/themes/canvas/img/search.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -36260,6 +36427,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/themes/canvas/img/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/site.webmanifest",
+		"oF": 0
 		},
 	"/wp-content/themes/canvas/img/star.svg": {
 		"ft": 2097152,
@@ -36846,6 +37020,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/wp-content/themes/canvas/scss/elements/_flexbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/wp-content/themes/canvas/scss/elements/_font-awesome.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/wp-content/themes/canvas/scss/elements/_font-awesome.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -44862,7 +45049,7 @@
 	"creationDate": 556813467,
 	"displayValue": "kaplan2018",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-soon",
+	"iconImageName": "/wp-content/themes/canvas/img/apple-touch-icon.png",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="305px" height="169px" viewBox="0 0 305 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Triangle Copy 2</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Triangle-Copy-2" fill="#5D636B" points="152.5 0.2890625 305 169 0 169"></polygon>
-    </g>
-</svg>
+<svg height="169" viewBox="0 0 305 169" width="305" xmlns="http://www.w3.org/2000/svg"><path d="m152.5.2890625 152.5 168.7109375h-305z" fill="#5d636b" fill-rule="evenodd"/></svg>

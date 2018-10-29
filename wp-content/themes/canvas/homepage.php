@@ -26,14 +26,14 @@ get_header(); ?>
             <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
             <h2>We've Got You Covered</h2>
             <p>We offer custom treatment plans for children, teens and adults. Whatever age you begin treatment, you will get personalized treatment with the best orthodontic technology available.</p>
-            <a href="#" class="arrow-link">Learn More <span>&rarr;</span></a>
+            <a href="/get-started" class="arrow-link">Learn More <span>&rarr;</span></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
             <div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
               <div class="image-block">
                 <div class="image-block-outer">
                   <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/placeholder-7.1.jpg" alt="staff smiling">
+                    <img src="/wp-content/themes/canvas/img/kaplan-orthodontics-staff-smiling-with-patient.jpg" alt="staff smiling">
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@ get_header(); ?>
               <div class="image-block round">
                 <div class="image-block-outer">
                   <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/placeholder-5.1.jpg" alt="dr.kaplan smiling">
+                    <img src="/wp-content/themes/canvas/img/dr-kaplan-home-headshot.jpg" alt="dr.kaplan smiling">
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@ get_header(); ?>
                 <div class="cta-info">
                   <img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
                   <p>We've got games, television, and more to keep you comfortable during your visit.</p>
-                  <a href="#" class="arrow-link">Read More <span>&rarr;</span></a>
+                  <a href="/about-us/tour-our-office/" class="arrow-link">Read More <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ get_header(); ?>
                 <div class="cta-info">
                   <img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
                   <p>Get personalized treatment using the latest orthodontic technology.</p>
-                  <a href="#" class="arrow-link">Read More <span>&rarr;</span></a>
+                  <a href="/all-ages-accepted/" class="arrow-link">Read More <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@ get_header(); ?>
                 <div class="cta-info">
                   <img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
                   <p>Our staff is certified, trained and ready make you feel at home.</p>
-                  <a href="#" class="arrow-link">Read More <span>&rarr;</span></a>
+                  <a href="/about-us/meet-the-team/" class="arrow-link">Read More <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ get_header(); ?>
               <div class="image-block round">
                 <div class="image-block-outer">
                   <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/placeholder-7.2.jpg" alt="woman smiling">
+                    <img src="/wp-content/themes/canvas/img/dr-kaplan-smiling-with-woman-patient.jpg" alt="woman smiling">
                   </div>
                 </div>
               </div>
@@ -136,7 +136,7 @@ get_header(); ?>
               <div class="image-block">
                 <div class="image-block-outer">
                   <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/placeholder-3.1.jpg" alt="woman smiling">
+                    <img src="/wp-content/themes/canvas/img/dr-kaplan-working-on-patient.jpg" alt="woman smiling">
                   </div>
                 </div>
               </div>

@@ -25,6 +25,10 @@ body {
 	}
 }
 
+::selection {
+  background: $teal; /* WebKit/Blink Browsers */
+}
+
 // Links
 a {
 	@include trans;
@@ -92,3 +96,4 @@ section {
 		height: 100%;
 	}
 }
+

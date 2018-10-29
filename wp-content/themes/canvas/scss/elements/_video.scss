@@ -19,9 +19,5 @@
 		height: auto;
 		z-index: 0;
 		transform: translate(-50%, -50%);
-
-		@media only screen and (max-width: $mediumdevice) {
-			position: absolute;
-		}
 	}
 }

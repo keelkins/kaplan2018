@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="23px" viewBox="0 0 30 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
-    <title>laptop</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Concept-Two" transform="translate(-1069.000000, -3399.000000)" fill="#93DDDF">
-            <g id="Group-4-Copy" transform="translate(1054.000000, 3381.000000)">
-                <g id="Group">
-                    <path d="M21.09375,20.625 L21.09375,32.34375 L18.75,32.34375 L18.75,18.28125 L41.25,18.28125 L41.25,32.34375 L38.90625,32.34375 L38.90625,20.625 L21.09375,20.625 Z M23.90625,22.5 L32.0947266,25.546875 L29.8242188,26.7626953 L32.578125,29.5166016 L30.9082031,31.171875 L28.1542969,28.4179688 L26.9677734,30.6884766 L23.90625,22.5 Z M41.2646484,34.21875 L45,38.4375 L45,40.78125 L15,40.78125 L15,38.4375 L18.7353516,34.21875 L41.2646484,34.21875 Z M18.1347656,38.4375 L41.8652344,38.4375 L40.2099609,36.5625 L19.7900391,36.5625 L18.1347656,38.4375 Z" id="laptop"></path>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg height="23" viewBox="0 0 30 23" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m21.09375 20.625v11.71875h-2.34375v-14.0625h22.5v14.0625h-2.34375v-11.71875zm2.8125 1.875 8.1884766 3.046875-2.2705078 1.2158203 2.7539062 2.7539063-1.6699219 1.6552734-2.7539062-2.7539062-1.1865235 2.2705078zm17.3583984 11.71875 3.7353516 4.21875v2.34375h-30v-2.34375l3.7353516-4.21875zm-23.1298828 4.21875h23.7304688l-1.6552735-1.875h-20.4199218z" fill="#93dddf" fill-rule="evenodd" transform="translate(-15 -18)"/></svg>

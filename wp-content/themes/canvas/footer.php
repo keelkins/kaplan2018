@@ -40,12 +40,10 @@
 <nav id="side-menu">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 	<ul id="mobile-utility">
-		<li><a href="https://twitter.com/jkaplanortho">TWITTER</a></li>
 		<li><a href="https://www.facebook.com/kaplanorthodontics">FACEBOOK</a></li>
 		<li><a href="https://www.instagram.com/kaplanorthodontics">INSTAGRAM</a></li>
-		<li><a href="#">YELP</a></li>
-		<li><a href="#">GOOGLE +</a></li>
-	</ul>	
+		<li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> 
+	</ul>
 </nav>
 
 <?php wp_footer(); ?>

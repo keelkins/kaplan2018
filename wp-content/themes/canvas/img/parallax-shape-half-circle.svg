@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="379px" height="243px" viewBox="0 0 379 243" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape Copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M18.8007812,46.734375 L403.799601,46.734375 C403.529841,152.819278 317.448289,238.734375 211.300191,238.734375 C105.152093,238.734375 19.0705412,152.819278 18.8008268,46.734375 Z" id="Combined-Shape-Copy" fill="#5D636B" transform="translate(211.300191, 142.734375) rotate(-15.000000) translate(-211.300191, -142.734375) "></path>
-    </g>
-</svg>
+<svg height="243" viewBox="0 0 379 243" width="379" xmlns="http://www.w3.org/2000/svg"><path d="m18.8007812 46.734375h384.9988198c-.26976 106.084903-86.351312 192-192.49941 192s-192.2296498-85.915097-192.4993642-192z" fill="#5d636b" fill-rule="evenodd" transform="matrix(.96592583 -.25881905 .25881905 .96592583 -29.742495 59.55207)"/></svg>

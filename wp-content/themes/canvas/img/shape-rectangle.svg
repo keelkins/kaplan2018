@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="374px" height="240px" viewBox="0 0 374 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Rectangle 3</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-3" fill="#EFEFEF" x="0" y="0" width="374" height="240"></rect>
-    </g>
-</svg>
+<svg height="240" viewBox="0 0 374 240" width="374" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h374v240h-374z" fill="#efefef" fill-rule="evenodd"/></svg>

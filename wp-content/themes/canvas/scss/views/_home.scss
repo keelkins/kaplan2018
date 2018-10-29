@@ -8,6 +8,10 @@ body.home {
 			height: 600px;
 		}
 
+		@media screen and (max-width: $mediumdevice) {
+			height: 450px;
+		}		
+
 		.bgvideo {
 
 			video {
@@ -15,20 +19,9 @@ body.home {
 				margin: 119px 0 0;
 
 				@media screen and (max-width: $mediumlargedevice) {
-					margin: 80px;
+					margin: 80px 0 0;
 				}				
 			}
-
-			// &.active {
-
-			// 	video {
-			// 		margin: 119px 0 0;
-
-			// 		@media screen and (max-width: $mediumlargedevice) {
-			// 			margin: 80px;
-			// 		}					
-			// 	}
-			// }
 		}
 
 		.home-message {
@@ -117,6 +110,11 @@ body.home {
 			overflow: hidden;
 			min-height: 600px;
 
+			@media screen and (max-width: $mediumdevice) {
+				padding: 100px 50px 50px;
+				min-height: 400px;				
+			}
+
 			&:before {
 				@include trans;
 				content: "";
@@ -149,17 +147,17 @@ body.home {
 			}
 
 			&.office {
-				background: url(/wp-content/themes/canvas/img/placeholder-1.1.jpg);
+				background: url(/wp-content/themes/canvas/img/dr-kaplan-and-patient-giving-thumbs-up.jpg);
 				@include bgcover;
 			}
 
 			&.technology {
-				background: url(/wp-content/themes/canvas/img/placeholder-4.1.jpg);
+				background: url(/wp-content/themes/canvas/img/girl-getting-x-ray.jpg);
 				@include bgcover;
 			}
 
 			&.staff {
-				background: url(/wp-content/themes/canvas/img/placeholder-8.1.jpg);
+				background: url(/wp-content/themes/canvas/img/dr-kaplan-smiling-with-teen-patient.jpg);
 				@include bgcover;
 			}
 
@@ -592,6 +590,10 @@ body.home {
 				background: rgba(34,45,64,0.30);
 				margin: 0;
 
+				@media screen and (max-width: $mediumdevice) {
+					display: none;
+				}
+
 				span {
 					font-weight: 600;
 				}
@@ -602,10 +604,9 @@ body.home {
 	section.home-consult-cta-2 {
 		text-align: center;
 
-		@media only screen and (max-width: $mediumdevice) {
-			background: $teal;
+		@media screen and (max-width: $mediumdevice) {
+			display: none;
 		}
-
 
 		&:before {
 			content: "";
@@ -641,6 +642,10 @@ body.home {
 		background: white;
 		z-index: 2;
 
+		@media screen and (max-width: $mediumdevice) {
+			display: none;
+		}
+
 		.boxed-wrapper {
 			background: $dkblue;
 			padding: 75px 55px 55px;
@@ -654,14 +659,18 @@ body.home {
 				content: "";
 				position: absolute;
 				height: calc(100% - 20px);
-		    width: calc(100% - 20px);
-		    top: 10px;
-		    left: 10px;
+			    width: calc(100% - 20px);
+			    top: 10px;
+			    left: 10px;
 				border: 5px solid white;
 			}
 
 			.bordered {
 				border-right: 2px solid white;
+
+				@media screen and (max-width: $mediumdevice) {
+					border: 0;
+				}
 			}
 
 			h1 {

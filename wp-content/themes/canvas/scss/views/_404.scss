@@ -1,28 +1,50 @@
 body.error404 {
-	background: $base;
+
+	&:before {
+		@include overlay;
+	}
 
 	.not-found {
-		padding-top: 12em;
-		padding-bottom: 12em;
+		padding-top: 20em;
+		text-align: center;
+		background: transparent;
 
 		h2 {
 			color: white;
 			margin-bottom: .8em;
+			position: relative;
+			z-index: 2;
+
+			&:after {
+				left: 50%;
+				margin: 0 0 0 -12.5px;				
+			}
 		}
 
 		p {
 			color: white;
+			position: relative;
+			z-index: 2;			
 		}
 
 		a {
-			@include btn-hollow (
-				$btn-color: white
-			);
+			position: relative;
+			z-index: 2;	
+			margin: 0 10px;
+
+			&.btn-hollow {
+				color: white;
+				border: 2px solid white;
+			}			
 		}
 
 		@media only screen and (max-width: $mediumdevice) {
 			padding-top: 10em;
 			padding-bottom: 5em;
 		}
+	}
+
+	footer {
+		display: none;
 	}
 }

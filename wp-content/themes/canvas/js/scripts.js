@@ -11,6 +11,7 @@ jQuery(function() {
 		jQuery(this).toggleClass('active');
 		jQuery('header').toggleClass('mobile');
 		jQuery('#side-menu').toggleClass('active');
+    jQuery('.mobile-consult-btn').toggleClass('active');
 	});
 
 	// Video player
@@ -41,11 +42,6 @@ jQuery('#side-menu #primary-menu li').each(function() {
 jQuery('#side-menu .expand').click(function() {
   jQuery(this).parent().children('ul').toggleClass('active');
   jQuery(this).toggleClass('active');
-});
-
-// Hide Mobile Nav
-jQuery('.close-nav').click(function() {
-  jQuery('#side-menu').removeClass('active');
 });
 
 jQuery(window).scroll(function() {

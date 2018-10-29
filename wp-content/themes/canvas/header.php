@@ -12,16 +12,35 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php // Favicons/application icons ?>
-	<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/manifest.json">
-	<link rel="mask-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#0e958b">
+	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/canvas/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/canvas/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/canvas/img/favicon-16x16.png">
+	<link rel="manifest" href="/wp-content/themes/canvas/img/site.webmanifest">
+	<link rel="mask-icon" href="/wp-content/themes/canvas/img/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#2b5797">
+	<meta name="theme-color" content="#ffffff">
 
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" />	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-99002712-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-99002712-1');
+	</script>
+
+	<!-- Ortho Chat Script -->
+	<script type="text/javascript">
+	  var __lc = {};
+	  __lc.license = 7036871;
+
+	  (function() {
+	    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+	    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+	  })();
+	</script>	
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -39,6 +58,9 @@
 
 	<!-- Logo -->
 	<a href="/" class="logo"><?php get_template_part( 'template-parts/logo' ); ?></a>
+
+	<a href="tel:7704585561" class="mobile-call-btn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+	<a href="/get-started" class="mobile-consult-btn arrow-link">Free Consult &rarr;</a>
 
 	<div class="utility-wrapper">
 		<ul id="utility-left">

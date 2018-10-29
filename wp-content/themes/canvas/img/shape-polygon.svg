@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="347px" height="329px" viewBox="0 0 347 329" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>Polygon</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Polygon" fill="#93DDDF" points="173.5 0 346.116758 125.413416 280.183023 328.336584 66.8169767 328.336584 0.883242292 125.413416"></polygon>
-    </g>
-</svg>
+<svg height="329" viewBox="0 0 347 329" width="347" xmlns="http://www.w3.org/2000/svg"><path d="m173.5 0 172.616758 125.413416-65.933735 202.923168h-213.3660463l-65.93373441-202.923168z" fill="#93dddf" fill-rule="evenodd"/></svg>

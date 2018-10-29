@@ -49,6 +49,42 @@ header {
 	    }
 	}
 
+	a.mobile-call-btn {
+		position: absolute;
+		top: 19px;
+		right: 70px;
+		height: 45px;
+		width: 45px;
+		border: 1px solid #eceaea;
+		text-align: center;
+		line-height: 45px;
+		border-radius: 45px;
+
+		@media screen and (min-width: $mediumlargedevice) {
+			display: none;
+		}
+	}		
+
+	a.mobile-consult-btn {
+		position: absolute;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		background: $dkblue;
+		line-height: 40px;
+		color: white;
+
+		&.active {
+			visibility: hidden;
+			opacity: 0;
+		}
+
+		@media screen and (min-width: $mediumlargedevice) {
+			display: none;
+		}		
+	}	
+
 	.utility-wrapper {
 		background: $dkblue;
 		height: 44px;

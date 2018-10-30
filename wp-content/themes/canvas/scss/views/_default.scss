@@ -93,6 +93,11 @@ body.page-template-default {
 	}
 }
 
-body.page-metal-braces .banner {
-	background-position: center !important;
+body.page-metal-braces,
+body.page-meet-the-team,
+body.page-insurance-finances {
+
+	.banner {
+		background-position: center !important;
+	}
 }

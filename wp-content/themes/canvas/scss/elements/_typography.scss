@@ -43,7 +43,8 @@ h3 {
 }
 
 h4 {
-	font-style: 25px;
+    font-size: 25px;
+    line-height: 1.25em;
 	color: $teal;
 
 	@media only screen and (max-width: $mediumdevice) {

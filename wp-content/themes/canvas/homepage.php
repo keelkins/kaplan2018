@@ -9,7 +9,7 @@ get_header(); ?>
   <section class="banner">
   		<div class="home-message">
   			<h1>Your New Smile's Waiting</h1>
-        <a href="#" class="arrow-link">Schedule Your Free Consult <span>&rarr;</span></a>
+        <a href="/get-started/" class="arrow-link">Schedule Your Free Consult <span>&rarr;</span></a>
   		</div>
   		<div class="bgvideo">
   			<video width="100%" height="100%" autoplay muted loop playsinline preload="metadata">
@@ -26,7 +26,7 @@ get_header(); ?>
             <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
             <h2>We've Got You Covered</h2>
             <p>We offer custom treatment plans for children, teens and adults. Whatever age you begin treatment, you will get personalized treatment with the best orthodontic technology available.</p>
-            <a href="/get-started" class="arrow-link">Learn More <span>&rarr;</span></a>
+            <a href="/about-us/" class="arrow-link">Learn More <span>&rarr;</span></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
             <div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
@@ -58,10 +58,11 @@ get_header(); ?>
             <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
             <h2>Meet Dr. Kaplan</h2>
             <p>Dr. Kaplan creates your  new smile using the top techniques, training and materials.</p>
-            <a href="/meet-the-doctor" class="arrow-link">Get to Know Your Doctor <span>&rarr;</span></a>
+            <a href="/meet-dr-kaplan/" class="arrow-link">Get to Know Your Doctor <span>&rarr;</span></a>
           </div>
         </div>
       </div>
+    </section>
     <section class="home-portals">
       <div class="intro-copy">
         <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
@@ -74,7 +75,7 @@ get_header(); ?>
                 <div class="cta-info">
                   <img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
                   <p>We've got games, television, and more to keep you comfortable during your visit.</p>
-                  <a href="/about-us/tour-our-office/" class="arrow-link">Read More <span>&rarr;</span></a>
+                  <a href="/our-dunwoody-orthodontics-office/" class="arrow-link">Read More <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -87,7 +88,7 @@ get_header(); ?>
                 <div class="cta-info">
                   <img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
                   <p>Get personalized treatment using the latest orthodontic technology.</p>
-                  <a href="/all-ages-accepted/" class="arrow-link">Read More <span>&rarr;</span></a>
+                  <a href="/dunwoody-orthodontics-for-all-ages/" class="arrow-link">Read More <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -100,7 +101,7 @@ get_header(); ?>
                 <div class="cta-info">
                   <img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
                   <p>Our staff is certified, trained and ready make you feel at home.</p>
-                  <a href="/about-us/meet-the-team/" class="arrow-link">Read More <span>&rarr;</span></a>
+                  <a href="/meet-your-dunwoody-orthodontics-team/" class="arrow-link">Read More <span>&rarr;</span></a>
                 </div>
               </div>
             </div>
@@ -115,7 +116,7 @@ get_header(); ?>
             <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
             <h2>Get Treated Like Family</h2>
             <p>You have unique needs and we pride ourselves on making you feel at home. We’re creating smiles all across Atlanta. </p>
-            <a href="#" class="arrow-link">Why Choose Us? <span>&rarr;</span></a>
+            <a href="/why-choose-kaplan/" class="arrow-link">Why Choose Us? <span>&rarr;</span></a>
           </div>
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
             <div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
@@ -147,61 +148,12 @@ get_header(); ?>
             <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
             <h2>State-Of-The-Art Technology</h2>
             <p>We use cutting-edge treatment technology to give you a smile you’re proud of.</p>
-            <a href="#" class="arrow-link">Learn More <span>&rarr;</span></a>
+            <a href="/our-dunwoody-orthodontics-office/" class="arrow-link">Learn More <span>&rarr;</span></a>
           </div>
         </div>
       </div>
     </section>
-<!--     <section class="home-consult-cta">
-      <div class="container">
-        <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
-        <h1>Schedule Today and Smile</h1>
-        <a href="#" class="btn border">Schedule Now <span>&rarr;</span></a>
-      </div>
-    </section> -->
-    <!-- <section class="home-features">
-      <div class="container">
-        <div class="row middle-xs feature-row">
-          <div class="col-xs-12 col-sm-5">
-            <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
-            <h2>We've Got You Covered</h2>
-            <p>We offer custom treatment plans for children, teens and adults. Whatever age you begin treatment, you will get personalized treatment with the best orthodontic technology available.</p>
-            <a href="#" class="arrow-link">Learn More <span>&rarr;</span></a>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-            <div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
-              <div class="image-block">
-                <div class="image-block-outer">
-                  <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/placeholder-7.1.jpg" alt="staff smiling">
-                  </div>
-                </div>
-              </div>
-              <img src="/wp-content/themes/canvas/img/teal-half-circle.svg" alt="decorative colored shape" class="shape shape-right">
-            </div>
-          </div>
-        </div>
-        <div class="row middle-xs feature-row">
-          <div class="col-xs-12 col-sm-6">
-            <div class="feature-block left wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
-              <div class="image-block round">
-                <div class="image-block-outer">
-                  <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/placeholder-5.1.jpg" alt="dr.kaplan smiling">
-                  </div>
-                </div>
-              </div>
-              <img src="/wp-content/themes/canvas/img/grey-half-circle.svg" alt="decorative colored shape" class="shape shape-left">
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-5 col-sm-offset-1">
-            <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
-            <h2>Meet Dr. Kaplan</h2>
-            <p>Dr. Kaplan creates your  new smile using the top techniques, training and materials.</p>
-            <a href="/meet-the-doctor" class="arrow-link">Get to Know Your Doctor <span>&rarr;</span></a>
-          </div>
-        </div>
-      </div> -->
+    <section class="home-features">
       <div class="cta-block-container">
         <div class="cta-block">
           <img src="/wp-content/themes/canvas/img/invisalign-white.png" alt="Invisalign Logo">
@@ -276,14 +228,14 @@ get_header(); ?>
             </a>
           </div>
         </div>
-        <a href="#" class="btn">View All Testimonials <span>&rarr;</span></a>
+        <a href="http://kaplan2018.wpengine.com/reviews-testimonials/" class="btn">View All Testimonials <span>&rarr;</span></a>
       </div>
     </section>
     <section class="home-consult-cta-2">
       <div class="container">
         <img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
         <h1>Get Your Free Consultation Today</h1>
-        <a href="/free-consultation" class="btn border">Schedule Now <span>&rarr;</span></a>
+        <a href="/get-started" class="btn border">Schedule Now <span>&rarr;</span></a>
       </div>
     </section>
     <section class="home-quick-links">
@@ -302,31 +254,31 @@ get_header(); ?>
                 <div class="col-xs-12 col-sm-4">
                   <h4>Kaplan Ortho</h4>
                   <ul>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/treatments">Treatments</a></li>
-                    <li><a href="/patients">Patients</a></li>
-                    <li><a href="/before-and-after">Before &amp; After</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/about-us/">About</a></li>
+                    <li><a href="/types-of-treatment/">Treatments</a></li>
+                    <li><a href="/your-first-orthodontic-visit/">Your First Visit</a></li>
+                    <li><a href="/reviews-testimonials/">Reviews</a></li>
+                    <li><a href="/contact-us/">Contact</a></li>
                   </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                   <h4>Resources</h4>
                   <ul>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/faq">Faq</a></li>
-                    <li><a href="/getting-started">Getting Started</a></li>
-                    <li><a href="/forms">Forms</a></li>
-                    <li><a href="/resources">Resources</a></li>
+                    <li><a href="/dunwoody-orthodontics-blog/">Blog</a></li>
+                    <li><a href="/dunwoody-orthodontic-faqs/">Faq</a></li>
+                    <li><a href="/get-started/">Getting Started</a></li>
+                    <li><a href="/orthodontic-insurance-finances/">Finances</a></li>
+                    <li><a href="/life-with-braces/">Life with Braces</a></li>
                   </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4">
                   <h4>Social</h4>
                   <ul>
-                    <li><a href="https://twitter.com/jkaplanortho">Twitter</a></li>
-                    <li><a href="https://facebook.com/KaplanOrthodontics">Facebook</a></li>
-                    <li><a href="https://instagram.com/kaplanorthodontics">Instagram</a></li>
-                    <li><a href="https://www.yelp.com/biz/kaplan-orthodontics-dunwoody">Yelp</a></li>
-                    <li><a href="https://goo.gl/Q8ixuu">Google Reviews</a></li>
+                    <li><a href="https://www.facebook.com/kaplanorthodontics" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.yelp.com/biz/kaplan-orthodontics-dunwoody" target="_blank">Yelp</a></li>
+                    <li><a href="https://goo.gl/Q8ixuu" target="_blank">Google Reviews</a></li>
+                    <li><a href="http://www.smiledash.com" target="_blank">My Account</a></li> 
                   </ul>
                 </div>
               </div>
@@ -334,7 +286,7 @@ get_header(); ?>
           </div>
         </div>
         <div class="boxed-wrapper">
-          <a href="/free-consultation"><h3>There's No Better Time to Get The Smile You've Always Wanted.</h3><hr><h1>For September only, parents get $500 off InVisalign Treatment</h1></a>
+          <a href="/get-started"><h3>There's No Better Time to Get The Smile You've Always Wanted.</h3><hr><h1>For September only, parents get $500 off InVisalign Treatment</h1></a>
         </div>
       </div>
     </section>

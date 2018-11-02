@@ -13,9 +13,9 @@ get_header(); ?>
   		</div>
   		<div class="bgvideo">
   			<video width="100%" height="100%" autoplay muted loop playsinline preload="metadata">
-            <source src="/wp-content/themes/canvas/img/Header.webmhd.webm" type="video/webm">
-            <source src="/wp-content/themes/canvas/img/Header.mp4.mp4" type="video/mp4">
-            <source src="/wp-content/themes/canvas/img/Header.oggtheora.ogv" type="video/ogg">
+            <source src="/wp-content/themes/canvas/img/header-v2.webmhd.webm" type="video/webm">
+            <source src="/wp-content/themes/canvas/img/header-v2.mp4.mp4" type="video/mp4">
+            <source src="/wp-content/themes/canvas/img/header-v2.oggtheora.ogv" type="video/ogg">
   			</video>
   		</div>
   	</section>
@@ -47,7 +47,7 @@ get_header(); ?>
               <div class="image-block round">
                 <div class="image-block-outer">
                   <div class="image-block-inner">
-                    <img src="/wp-content/themes/canvas/img/dr-kaplan-home-headshot.jpg" alt="dr.kaplan smiling">
+                    <img src="/wp-content/themes/canvas/img/dr-kaplan-home-headshot-final.jpg" alt="dr.kaplan smiling">
                   </div>
                 </div>
               </div>
@@ -159,19 +159,19 @@ get_header(); ?>
           <img src="/wp-content/themes/canvas/img/invisalign-white.png" alt="Invisalign Logo">
           <h3>Invisalign</h3>
           <p>Clear Custom Comfort</p>
-          <a href="/invisalign" class="arrow-link">Read More <span>&rarr;</span></a>
+          <a href="https://jkaplanortho.com/dunwoody-invisalign/" class="arrow-link">Read More <span>&rarr;</span></a>
         </div>
         <div class="cta-block">
-          <img src="/wp-content/themes/canvas/img/carriere-white.png" alt="Invisalign Logo">
-          <h3>Carriere SLX</h3>
-          <p>The Next Big Thing</p>
-          <a href="/carriere" class="arrow-link">Read More <span>&rarr;</span></a>
+          <img src="/wp-content/themes/canvas/img/acceledent-logo.png" alt="AcceleDent Logo">
+          <h3>Accelerated Orthodontics</h3>
+          <p>Easy, Comfortable, Quick</p>
+          <a href="/accelerated-orthodontics/" class="arrow-link">Read More <span>&rarr;</span></a>
         </div>
         <div class="cta-block">
-          <img src="/wp-content/themes/canvas/img/invisalign-teen.png" alt="Invisalign Logo">
+          <img src="/wp-content/themes/canvas/img/invisalign-teen.png" alt="Invisalign Teen Logo">
           <h3>Invisalign Teen</h3>
           <p>Clear Custom Aligners for Growing Teens</p>
-          <a href="/invisalign-teen" class="arrow-link">Read More <span>&rarr;</span></a>
+          <a href="/dunwoody-teen-invisalign/" class="arrow-link">Read More <span>&rarr;</span></a>
         </div>
       </div>
     </section>
@@ -194,7 +194,7 @@ get_header(); ?>
               <div class="play-btn">
   							<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
   						</div>
-              <img src="/wp-content/themes/canvas/img/testimonial-alicia.jpg" alt="kyle headshot">
+              <img src="/wp-content/themes/canvas/img/testimonial-alicia.jpg" alt="alicia headshot">
               <p><span>Alicia F. -</span> Braces Treatment</p>
             </a>
           </div>
@@ -203,7 +203,7 @@ get_header(); ?>
               <div class="play-btn">
                 <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
               </div>
-              <img src="/wp-content/themes/canvas/img/testimonial-daniel.jpg" alt="kyle headshot">
+              <img src="/wp-content/themes/canvas/img/testimonial-daniel.jpg" alt="daniel headshot">
               <p><span>Daniel M. -</span> Braces Treatment</p>
             </a>
           </div>
@@ -214,7 +214,7 @@ get_header(); ?>
               <div class="play-btn">
                 <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
               </div>
-              <img src="/wp-content/themes/canvas/img/testimonial-jill.jpg" alt="kyle headshot">
+              <img src="/wp-content/themes/canvas/img/testimonial-jill.jpg" alt="jill headshot">
               <p><span>Jill C. -</span> Braces Treatment</p>
             </a>            
           </div>
@@ -223,7 +223,7 @@ get_header(); ?>
               <div class="play-btn">
                 <img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
               </div>
-              <img src="/wp-content/themes/canvas/img/testimonial-christopher.jpg" alt="kyle headshot">
+              <img src="/wp-content/themes/canvas/img/testimonial-christopher.jpg" alt="christopher headshot">
               <p><span>Cristopher F. -</span> Braces Treatment</p>
             </a>
           </div>
@@ -272,7 +272,7 @@ get_header(); ?>
                   </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                  <h4>Social</h4>
+                  <h4>Connect</h4>
                   <ul>
                     <li><a href="https://www.facebook.com/kaplanorthodontics" target="_blank">Facebook</a></li>
                     <li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank">Instagram</a></li>
@@ -285,9 +285,9 @@ get_header(); ?>
             </div>
           </div>
         </div>
-        <div class="boxed-wrapper">
+        <!-- <div class="boxed-wrapper">
           <a href="/get-started"><h3>There's No Better Time to Get The Smile You've Always Wanted.</h3><hr><h1>For September only, parents get $500 off InVisalign Treatment</h1></a>
-        </div>
+        </div> -->
       </div>
     </section>
 </main>

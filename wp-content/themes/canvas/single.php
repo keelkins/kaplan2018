@@ -12,11 +12,11 @@ get_header(); ?>
 <main id="main" class="site-main" role="main">
 	<section class="content article">
 		<div class="container">
-			<h1 class="post-title"><?php the_title(); ?></h1>
-			<span class="post-date"><?php echo get_the_date(); ?></span>
 			<div class="featured-image">
 				<?php the_post_thumbnail(); ?>
 			</div>
+			<h1 class="post-title"><?php the_title(); ?></h1>
+			<span class="post-date"><?php echo get_the_date(); ?></span>			
 			<div class="entry-content">
 				<?php the_content(); ?>
 				<span class="post-author"><strong>Posted by</strong> Dr. Kaplan</span>	

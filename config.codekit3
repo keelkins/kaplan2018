@@ -35605,6 +35605,17 @@
 		"oAP": "/wp-content/themes/canvas/homepage.php",
 		"oF": 0
 		},
+	"/wp-content/themes/canvas/img/acceledent-logo.png": {
+		"ft": 32768,
+		"iS": 4521,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/acceledent-logo.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 7198,
@@ -35762,6 +35773,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/dr-kaplan-home-headshot-final.jpg": {
+		"ft": 16384,
+		"iS": 505820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/dr-kaplan-home-headshot-final.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/dr-kaplan-home-headshot.jpg": {
 		"ft": 16384,
 		"iS": 683979,
@@ -35886,6 +35908,27 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/themes/canvas/img/header-v2.mp4.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/header-v2.mp4.mp4",
+		"oF": 0
+		},
+	"/wp-content/themes/canvas/img/header-v2.oggtheora.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/header-v2.oggtheora.ogv",
+		"oF": 0
+		},
+	"/wp-content/themes/canvas/img/header-v2.webmhd.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/header-v2.webmhd.webm",
+		"oF": 0
 		},
 	"/wp-content/themes/canvas/img/Header.mp4.mp4": {
 		"cB": 0,

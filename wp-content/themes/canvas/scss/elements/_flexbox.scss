@@ -10,6 +10,11 @@
 .container-fluid {
 	margin-right: 48px;
 	margin-left: 48px;
+
+	@media screen and (max-width: $mediumdevice) {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 .row {

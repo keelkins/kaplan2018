@@ -27,7 +27,7 @@
 		width: 25px;
 		background: $teal;
 		position: absolute;
-		display: block;
+		display: block;		
 	}
 	span:before {
 		top: -8px;
@@ -56,7 +56,7 @@
 		}
 	}
 
-	@media only screen and (max-width: $mediumlargedevice) {
+	@media only screen and (max-width: 1200px) {
 		display: block;
 	}
 }
@@ -139,6 +139,7 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 
 				&:before,
 				&:after {
+					@include trans;
 					content: '';
 					display: block;
 					position: absolute;
@@ -188,7 +189,7 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 				position: relative;
 				float: none;
 				background: darken($teal, 5%);
-				padding: 10px 0;				
+				padding: 0;				
 
 				&.active {
 					display: block;
@@ -201,24 +202,37 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 					height: auto;
 
 					a.expand {
-						height: 65px;
+						height: 45px;
+
+						&:before,
+						&:after {
+							margin: -7px 0 0 -1px;
+						}
 					}
 					
 					a {
 						color: white;
-						font-size: 1em;
+						font-size: 1.25em;
 						padding: 0 20px;
 						display: block;
 						font-weight: normal;	
-						line-height: 2em;
-						font-size: 16px;	
+						line-height: 3em;
+						font-size: 15px;	
 						border: 0 !important;
+						text-transform: uppercase;
 					}
 
 					// Third Level Nav
 					ul {
-						background: $gray-70;
+						background: darken($teal,15%);
 						margin: 0;
+
+						li {
+
+							a {
+								text-transform: none;
+							}
+						}
 					}
 				}
 			}

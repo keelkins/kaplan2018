@@ -4,7 +4,7 @@ body.blog {
 		margin: 170px 0 0;
 		padding: 0;
 
-		@media screen and (max-width: $mediumlargedevice) {
+		@media screen and (max-width: 1200px) {
 			margin: 80px 0 0;
 		}		
 
@@ -15,11 +15,27 @@ body.blog {
 			width: 100%;
 			padding: 200px 100px;
 
+			@media screen and (max-width: 1160px) {
+				padding: 200px 50px 50px;
+			}
+
+			@media screen and (max-width: $mediumdevice) {
+				padding: 0;
+				background: none;
+				text-align: center;
+				margin: 80px 0 0 !important;			
+			}
+
 			.message-content {
 				padding: 30px;
-				background: #fff;
+				background: white;
 				max-width: 475px;
 				width: 100%;
+
+				@media screen and (max-width: $mediumdevice) {
+					margin: auto !important;			
+				}
+
 
 				h1, p {
 					color: $dkblue;
@@ -76,10 +92,17 @@ body.blog {
 		.sidebar {
 			background: $ltteal;
 			padding: 20px;
+			margin: 0 0 40px;
 
 			.sidebar-content {
 				background: white;
 				padding: 20px;
+
+				.widget_categories li {
+					display: inline-block;
+					margin: 0 20px 0 0;
+				}
+
 			}
 
 			section {

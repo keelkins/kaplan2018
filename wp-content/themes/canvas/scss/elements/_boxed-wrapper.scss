@@ -1,0 +1,109 @@
+.boxed-wrapper {
+	background: $dkblue;
+	padding: 75px 55px 55px;
+	position: relative;
+
+	&:first-of-type {
+		margin: 0 0 40px;
+	}
+
+	&:before {
+		content: "";
+		position: absolute;
+		height: calc(100% - 20px);
+	    width: calc(100% - 20px);
+	    top: 10px;
+	    left: 10px;
+		border: 5px solid white;
+		z-index: 1;
+	}
+
+	.bordered {
+		border-right: 2px solid white;
+
+		@media screen and (max-width: $mediumdevice) {
+			border: 0;
+		}
+	}
+
+	h1 {
+		font-weight: 700;
+		font-size: 40px;
+		color: white;
+		letter-spacing: 4px;
+		text-transform: uppercase;
+		text-align: center;
+
+		@media screen and (max-width: $mediumdevice) {
+			font-size: 30px;
+		}
+	}
+
+	h4 {
+		font-size: 14px;
+		color: $teal;
+		text-transform: uppercase;
+		margin: 0 0 30px;
+	}
+
+	p {
+		color: white;
+		font-size: 14px;
+		line-height: 1.5em;
+		position: relative;
+		z-index: 9;
+
+		span {
+			font-weight: 600;
+			color: $teal;
+			display: block;
+		}
+
+		a {
+			color: white;
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: 14px;
+
+		li {
+			margin: 0 0 10px;
+
+			a {
+				color: white;
+				position: relative;
+				z-index: 2;
+
+				&:hover {
+					opacity: .5;
+				}
+			}
+		}
+	}
+
+	a {
+		text-decoration: none;
+		color: white;
+		position: relative;
+		z-index: 2;
+	}
+
+	h3 {
+		text-align: center;
+		color: white;
+		font-size: 20px;
+		padding-bottom: 10px;
+	}
+
+	hr {
+		width: 5%;
+		border-top: 2px solid white;
+		display: block;
+		margin: auto;
+	}
+
+}

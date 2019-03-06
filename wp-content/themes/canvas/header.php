@@ -64,12 +64,12 @@
 
 	<div class="utility-wrapper">
 		<ul id="utility-left">
-			<li>CALL TODAY | <a href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true"></i> 770.458.5561</a>&nbsp;</li>
+			<li>CALL OR TEXT | <a href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true" style="margin:0 5px 0 0;"></i><i class="fa fa-comment" aria-hidden="true"></i>  770.458.5561</a>&nbsp;</li>
 		</ul>
 		<ul id="utility-right">
 			<li><a href="https://www.facebook.com/kaplanorthodontics" target="_blank">FACEBOOK | </a></li>
-			<li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank">INSTAGRAM | </a></li>
-			<li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> 
+			<li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank">INSTAGRAM</a></li>
+			<!-- <li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> --> 
 		</ul>
 	</div>
 

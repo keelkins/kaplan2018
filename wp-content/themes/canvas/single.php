@@ -57,7 +57,7 @@ get_header(); ?>
 				            <span>Pin</span>
 				        </a>
 				    </li>
-				</ul>				
+				</ul>
 			</div>
 			<div class="related-posts">
 				<?php $orig_post = $post;

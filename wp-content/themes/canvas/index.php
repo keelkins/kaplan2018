@@ -24,7 +24,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-	</section>	
+	</section>
 	<section class="content">
 		<div class="container-fluid">
 			<div class="row top-xs">
@@ -49,7 +49,7 @@ get_header(); ?>
 
 							get_template_part( 'template-parts/content', 'none' );
 
-						endif; ?>						
+						endif; ?>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-3 sidebar">

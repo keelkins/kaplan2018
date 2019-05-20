@@ -301,7 +301,7 @@ header {
 					&:hover {
 						opacity: 1;
 						background: darken($dkblue, 15%) !important;
-						color: teal !important;
+						color: $teal !important;
 					}
 				}
 

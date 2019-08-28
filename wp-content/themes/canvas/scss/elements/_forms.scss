@@ -11,7 +11,7 @@
 					label,
 					label.gfield_label {
 						display: none !important;
-					}					
+					}
 				}
 
 				// Labels
@@ -81,9 +81,17 @@
 		margin: 0 !important;
 
 		// Buttons
-		input[type="submit"] {
+		input[type="submit"]{
+			@include trans;
 			@include btn;
 		}
+	}
+
+	.gform_next_button,
+	.gform_previous_button,
+	.gform_button {
+		@include trans;
+		@include btn;
 	}
 
 	// Placeholder styling
@@ -99,4 +107,40 @@
 	:-ms-input-placeholder {  
 	   color: $gray-30;  
 	}
+}
+
+div#gform_wrapper_6 {
+
+	h2.gsection_title {
+		display: block;
+		color: #252e68;
+		font-size: 32px !important;
+		padding: 0 0 15px !important;
+	}
+
+	input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),
+	textarea {
+		padding: 10px 15px !important;
+	}
+
+	label {
+		font-weight: 400 !important;
+		font-size: 16px !important;
+		color: #252e68 !important;
+	}
+}
+
+.gform_wrapper .percentbar_blue {
+    background-color: #2aace2 !important;
+    color: #FFF;
+    background: #2aace2 !important;
+}
+
+.gform_wrapper .gf_progressbar {
+    padding: 0 !important;
+    background-color: none !important;
+}
+
+h3.gf_progressbar_title {
+    margin: 0 0 10px 0!important;
 }

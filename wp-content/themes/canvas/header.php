@@ -45,6 +45,33 @@
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
+	<!-- Schema Markup -->
+	<script type='application/ld+json'>
+		{
+		"@context": "http://www.schema.org",
+		"@type": "Dentist",
+		"name": "Kaplan Orthodontics",
+		"url": "https://jkaplanortho.com/",
+		"logo": "http://jkaplanortho.com/wp-content/uploads/2014/04/logo-2016.png",
+		"image": "http://jkaplanortho.com/wp-content/uploads/2019/04/Kaplan-Dr-talking-to-patient-2.jpg",
+		"description": "We offer custom treatment plans for children, teens and adults. Whatever age you begin treatment, you will get personalized treatment with the best orthodontic technology available.",
+		"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "4700 Chamblee Dunwoody Road",
+			"addressLocality": "Dunwoody",
+			"addressRegion": "GA",
+			"postalCode": "30338",
+			"addressCountry": "US"
+			},
+		"openingHours": "Mo Tu We 7:30-17:00 Th 7:30-16:30 Fr 8:00-12:00",
+		"contactPoint": {
+			"@type": "contactPoint",
+			"contactType": "customer service",
+			"telephone": "+17704585561"
+			}
+		}
+	</script>
+
 <?php wp_head(); ?>
 
 <!--Typekit Script-->

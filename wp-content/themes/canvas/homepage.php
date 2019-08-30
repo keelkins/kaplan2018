@@ -41,10 +41,12 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
-				<div class="boxed-wrapper" style="text-align:center; padding-bottom: 100px; display:block !important;">
-					<a href="/win-tickets-to-walt-disney-world/" style="display: block;"><h1 style="margin:0 0 50px;">Win Tickets to Walt Disney World!</h1></a>
-					<a href="/win-tickets-to-walt-disney-world/" class="btn">More Info</a>
-				</div>
+
+				<!-- <div class="boxed-wrapper" style="text-align:center; padding-bottom: 100px; display:block !important;">
+					<a href="#" style="display: block;"><h1 style="margin:0 0 50px;">Win Tickets to Walt Disney World!</h1></a>
+					<a href="#" class="btn">More Info</a>
+				</div> -->
+
 				<div class="row middle-xs feature-row">
 					<div class="col-xs-12 col-sm-6">
 						<div class="feature-block left wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">

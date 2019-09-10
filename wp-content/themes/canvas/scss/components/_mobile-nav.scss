@@ -12,6 +12,18 @@
 	background: transparent;
 	border: 0;
 
+	&:before {
+		content: "Menu";
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 700;
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		transform: translateY(-50%);
+		color: #999;
+	}
+
 	span {
 		top: 50%;
 		left: 50%;

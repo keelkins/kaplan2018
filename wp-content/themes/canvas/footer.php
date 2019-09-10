@@ -32,7 +32,17 @@
 
 <?php // Mobile bar (if you want a convenient way for users to navigate on smaller devices) ?>
 <div class="mobile-bar">
-	<?php wp_nav_menu( array( 'theme_location' => 'mobile-bar', 'menu_id' => 'mobile-bar' ) ); ?>
+	<ul id="mobile-bar" class="menu">
+		<li id="menu-item-3067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3067">
+			<a href="https://jkaplanortho.com/get-started/">Free Consult</a>
+		</li>
+		<li id="menu-item-3068" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3068">
+			<a href="tel:770-458-5561"><i class="fa fa-phone" aria-hidden="true"></i></a>
+		</li>
+		<li id="menu-item-3071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3071">
+			<a href="sms:770-458-5561"><i class="fa fa-comment" aria-hidden="true"></i></a>
+		</li>
+	</ul>
 </div>
 
 <?php // On smaller devices, the main menu will appear here ?>

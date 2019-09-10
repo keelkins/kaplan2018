@@ -31,7 +31,7 @@
 	</script>
 
 	<!-- Ortho Chat Script -->
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 	  var __lc = {};
 	  __lc.license = 7036871;
 
@@ -40,7 +40,7 @@
 	    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
 	  })();
-	</script>	
+	</script> -->
 
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
@@ -86,8 +86,8 @@
 	<!-- Logo -->
 	<a href="/" class="logo"><?php get_template_part( 'template-parts/logo' ); ?></a>
 
-	<a href="tel:7704585561" class="mobile-call-btn"><i class="fa fa-phone" aria-hidden="true"></i></a>
-	<a href="/get-started" class="mobile-consult-btn arrow-link">Free Consult &rarr;</a>
+	<!-- <a href="tel:7704585561" class="mobile-call-btn"><i class="fa fa-phone" aria-hidden="true"></i></a> -->
+	<!-- <a href="/get-started" class="mobile-consult-btn arrow-link">Free Consult &rarr;</a> -->
 
 	<div class="utility-wrapper">
 		<ul id="utility-left">

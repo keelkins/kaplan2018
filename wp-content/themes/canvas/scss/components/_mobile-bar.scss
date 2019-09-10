@@ -16,7 +16,21 @@
 		li {
 			position: relative;
 			float: left;
-			width: 20%;
+			width: 25%;
+
+			&:first-of-type {
+				background: $teal;
+				width: 50%;
+
+				a {
+					font-size: 16px;
+					color: white;
+				}
+			}
+
+			&:nth-child(2) {
+				border-right: 1px solid #ddd;
+			}
 
 			&:before {
 				position: absolute;
@@ -32,11 +46,11 @@
 
 			a {
 				display: block;
-				color: white;
+				color: $dkblue;
 				text-align: center;
-				text-indent: -9999px;
 				line-height: $mobilebarheight;
 				overflow: hidden;
+				font-size: 20px;
 			}
 
 			&.main-action {
@@ -95,7 +109,7 @@
 		}
 	}
 
-	@media only screen and (max-width: $mediumdevice) {
-		display: none;
+	@media only screen and (max-width: 1200px) {
+		display: block;
 	}
 }

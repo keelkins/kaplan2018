@@ -18,9 +18,9 @@ header {
 
 		@media screen and (max-width: 1200px) {
 			height: 80px;
-		}			
+		}
 
-		ul#primary-menu { 
+		ul#primary-menu {
 			margin: 0;
 		}
 
@@ -63,7 +63,7 @@ header {
 		@media screen and (min-width: 1200px) {
 			display: none;
 		}
-	}		
+	}
 
 	a.mobile-consult-btn {
 		position: absolute;
@@ -82,8 +82,12 @@ header {
 
 		@media screen and (min-width: 1200px) {
 			display: none;
-		}		
-	}	
+		}
+
+		@media screen and (max-width: $mediumdevice) {
+			display: none !important;
+		}
+	}
 
 	.utility-wrapper {
 		background: $dkblue;
@@ -91,7 +95,7 @@ header {
 
 		@media screen and (max-width: 1200px) {
 			display: none;
-		}			
+		}
 	}
 
 	#utility-left {
@@ -287,9 +291,9 @@ header {
 
 				a {
 					@extend .btn;
-					background: $dkblue;
-					border: 2px solid $dkblue;
-					color: white;
+					background: #F09837;
+					border: 2px solid #F09837;
+					color: #252e68;
 					letter-spacing: 0.5px;
 					position: relative;
 
@@ -301,6 +305,7 @@ header {
 					&:hover {
 						opacity: 1;
 						background: darken($dkblue, 15%) !important;
+						border: 2px solid darken($dkblue, 15%) !important;
 						color: $teal !important;
 					}
 				}

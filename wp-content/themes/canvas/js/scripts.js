@@ -64,3 +64,9 @@ jQuery(".blog article").click(function() {
 
 // Rellax Scroll
 var rellax = new Rellax('.rellax');
+
+// Add SMS to Menu Item
+
+jQuery(window).load(function(){
+  jQuery('#menu-item-3071 a').attr('href','sms:+370123123');
+});

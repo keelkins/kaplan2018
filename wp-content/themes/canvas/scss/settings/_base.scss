@@ -97,3 +97,9 @@ section {
 	}
 }
 
+div#chat-widget-container {
+
+	@media screen and (max-width: 1200px) {
+		bottom: 55px !important;
+	}
+}

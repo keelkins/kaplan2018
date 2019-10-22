@@ -196,7 +196,7 @@ get_header(); ?>
 				</div>
 				<div class="testimonials-container">
 					<div class="testimonial-column">
-						<a href="https://www.youtube.com/watch?v=x34ZquBEzg0?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+						<a href="https://www.youtube.com/watch?v=fXWXSN_e69E?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
 							<div class="play-btn">
 								<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
 							</div>
@@ -205,18 +205,18 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="testimonial-column">
-						<a href="https://www.youtube.com/watch?v=HHHg0VIjzkk?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+						<a href="https://www.youtube.com/watch?v=KwruGTFHbNs?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
 							<div class="play-btn">
 								<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
 							</div>
-							<img src="/wp-content/themes/canvas/img/testimonial-daniel.jpg" alt="daniel headshot">
-							<p><span>Daniel M. -</span> Braces Treatment</p>
+							<img src="/wp-content/themes/canvas/img/testimonial-marcello.jpg" alt="daniel headshot">
+							<p><span>Marcello C. -</span> Braces Treatment</p>
 						</a>
 					</div>
 				</div>
 				<div class="testimonials-container">
 					<div class="testimonial-column">
-						<a href="https://www.youtube.com/watch?v=mp218Uz-xbk?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+						<a href="https://www.youtube.com/watch?v=jLhG1ucSJe4?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
 							<div class="play-btn">
 								<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
 							</div>
@@ -225,12 +225,12 @@ get_header(); ?>
 						</a>
 					</div>
 					<div class="testimonial-column">
-						<a href="https://www.youtube.com/watch?v=WRy15RYF0Mw?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
+						<a href="https://www.youtube.com/watch?v=tUfjMMxO-RQ?autoplay=1&rel=0&showinfo=0" class="mfp-iframe testimonial-wrapper">
 							<div class="play-btn">
 								<img src="/wp-content/themes/canvas/img/playIcon.svg" alt="play button icon">
 							</div>
-							<img src="/wp-content/themes/canvas/img/testimonial-christopher.jpg" alt="christopher headshot">
-							<p><span>Cristopher F. -</span> Braces Treatment</p>
+							<img src="/wp-content/themes/canvas/img/testimonial-sam.jpg" alt="christopher headshot">
+							<p><span>Sam G. -</span> Braces Treatment</p>
 						</a>
 					</div>
 				</div>

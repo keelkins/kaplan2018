@@ -39898,6 +39898,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/testimonial-marcello.jpg": {
+		"ft": 16384,
+		"iS": 72165,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/testimonial-marcello.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/testimonial-placeholder-1.1.jpg": {
 		"ft": 16384,
 		"iS": 51943,
@@ -39951,6 +39962,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/testimonial-sam.jpg": {
+		"ft": 16384,
+		"iS": 102601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/testimonial-sam.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/canvas/img/usergroupBlue.svg": {

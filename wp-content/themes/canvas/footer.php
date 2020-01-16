@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div class="credits">
-		<p class="copy">&copy; <span class="year"></span> <?php echo get_bloginfo('name'); ?>. All Rights Reserved. | Site by <a href="https://neoncanvas.com">Neon Canvas</a></p>
+		<p class="copy">&copy; <span class="year"></span> <?php echo get_bloginfo('name'); ?>. All Rights Reserved. <a href="/privacy-policy/">Privacy Policy.</a> | Site by <a href="https://neoncanvas.com">Neon Canvas</a></p>
 	</div>
 </footer>
 
@@ -55,6 +55,13 @@
 		<li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> 
 	</ul>
 </nav>
+
+<script type="text/javascript">
+  var _userway_config = {
+    account: 'WlK68SEjDL'
+  };
+</script>
+<script type="text/javascript" src="https://cdn.userway.org/widget.js"></script>
 
 <?php wp_footer(); ?>
 

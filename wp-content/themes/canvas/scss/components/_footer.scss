@@ -195,3 +195,14 @@ footer {
 		}
 	}
 }
+
+body .userway {
+
+	top: auto !important;
+    bottom: 13px !important;
+    left: 13px !important;
+
+	@media screen and (max-width: $mediumdevice) {
+		margin-bottom: $mobilebarheight !important;
+	}
+}  

@@ -12,6 +12,7 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php // Favicons/application icons ?>
+	<link rel="icon" href="/wp-content/themes/canvas/img/favicon.ico" type="image/x-icon" />
 	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/canvas/img/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/canvas/img/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/canvas/img/favicon-16x16.png">
@@ -72,7 +73,9 @@
 <header>
 
 	<!-- Logo -->
-	<a href="/" class="logo"><?php get_template_part( 'template-parts/logo' ); ?></a>
+	<a href="/" class="logo">
+		<img src="/wp-content/themes/canvas/img/kaplan-logo_update.svg" alt="Kaplan Orthodontics Logo">
+	</a>
 
 	<!-- <a href="tel:7704585561" class="mobile-call-btn"><i class="fa fa-phone" aria-hidden="true"></i></a> -->
 	<!-- <a href="/get-started" class="mobile-consult-btn arrow-link">Free Consult &rarr;</a> -->

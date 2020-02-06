@@ -17,8 +17,8 @@
 	<div class="wrapper">
 		<div class="row">
 			<div class="col-xs-12 col-sm-3">
-				<img src="/wp-content/themes/canvas/img/logo-reverse.svg" alt="Kaplan Orthodontics Logo">
-				<p><span>Ready to Get Started? </span>Enter your information and we will call to schedule a complimentary consultation today.</p>
+				<img style="max-width:175px;" src="/wp-content/themes/canvas/img/kaplan-logo-reverse_update.svg" alt="Kaplan Orthodontics Logo">
+				<p><span>Ready to Get Started?</span>Enter your information and we will call to schedule a complimentary consultation today.</p>
 			</div>
 			<div class="col-xs-12 col-sm-9">
 				<?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>

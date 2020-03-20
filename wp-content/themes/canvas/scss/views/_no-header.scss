@@ -64,8 +64,8 @@ body.page-template-no-header {
 				}
 
 				label {
-					color: white;
-					opacity: .45;
+					color: white !important;
+					opacity: 1 !important;
 				}
 
 				.gform_confirmation_message {
@@ -74,6 +74,7 @@ body.page-template-no-header {
 
 				input[type="submit"] {
 					color: white !important;
+					background: #090b1d !important;
 				}
 			}
 

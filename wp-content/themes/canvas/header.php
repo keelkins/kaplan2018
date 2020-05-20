@@ -82,11 +82,13 @@
 
 	<div class="utility-wrapper">
 		<ul id="utility-left">
-			<li>CALL OR TEXT | <a href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true" style="margin:0 5px 0 0;"></i><i class="fa fa-comment" aria-hidden="true"></i>  770.458.5561</a>&nbsp;</li>
+			<li style="color: #ffffff !important;">CALL OR TEXT | <a style="color: #ffffff !important; href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true" style="color: #ffffff !important; margin:0 5px 0 0;"></i><i class="fa fa-comment" aria-hidden="true" style="color: #ffffff !important; margin:0 5px 0 0;"></i>770.458.5561</a>&nbsp;</li>
 		</ul>
 		<ul id="utility-right">
-			<li><a href="https://www.facebook.com/kaplanorthodontics" target="_blank">FACEBOOK | </a></li>
-			<li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank">INSTAGRAM</a></li>
+			<li><a href="https://www.facebook.com/kaplanorthodontics" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.twitter.com/jkaplanortho" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+			<li><a href="https://www.youtube.com/channel/UCIKRtQFQ_7_gj5OKtS97D7g" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
 			<!-- <li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> --> 
 		</ul>
 	</div>

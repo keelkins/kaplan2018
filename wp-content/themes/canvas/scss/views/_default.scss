@@ -1,5 +1,29 @@
 body.page-template-default {
 
+	&.page-orthodontics-for-adults {
+
+		.left-parallax-image, 
+		.right-parallax-image {
+			display: none !important;
+		}
+
+		footer .section-intro {
+			display: none;
+		}
+
+		.eapps-instagram-feed-container {
+			display: none;
+		}
+
+		footer {
+			padding: 0;
+		}
+
+		.instagram-feed {
+    		display: none;
+		}
+	}
+
 	section.banner {
 		height: calc(100vh - 157px);
 		margin: 157px 0 0;		

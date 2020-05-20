@@ -30,7 +30,7 @@ get_header(); ?>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-sm-offset-1">
 						<div class="feature-block wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
-							<div class="image-block">
+							<div class="image-block round">
 								<div class="image-block-outer">
 									<div class="image-block-inner">
 										<img src="/wp-content/themes/canvas/img/kaplan-orthodontics-staff-smiling-with-patient.jpg" alt="staff smiling">
@@ -140,7 +140,7 @@ get_header(); ?>
 				<div class="row middle-xs">
 					<div class="col-xs-12 col-sm-6">
 						<div class="feature-block left wow bounceIn" data-wow-duration=".5s" data-wow-delay=".35s">
-							<div class="image-block">
+							<div class="image-block round">
 								<div class="image-block-outer">
 									<div class="image-block-inner">
 										<img src="/wp-content/themes/canvas/img/dr-kaplan-working-on-patient.jpg" alt="woman smiling">

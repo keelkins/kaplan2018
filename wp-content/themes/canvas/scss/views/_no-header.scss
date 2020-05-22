@@ -25,9 +25,9 @@ body.page-template-no-header {
 			align-items: stretch;
 
 			.col-left {
-				-webkit-flex: 0 1 650px;
-				-ms-flex: 0 1 650px;
-				flex: 0 1 650px;
+				-webkit-flex: 0 1 100%;
+				-ms-flex: 0 1 100%;
+				flex: 0 1 100%;
 				background: $dkblue;
 				padding: 100px;
 				text-align: center;
@@ -40,6 +40,10 @@ body.page-template-no-header {
 					padding: 25px 0;
 					text-align: left;
 					height: auto;
+				}
+
+				.container {
+					max-width: 650px;
 				}
 
 				h2 {

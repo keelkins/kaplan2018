@@ -295,8 +295,8 @@ header {
 
 				a {
 					@extend .btn;
-					background: #F09837;
-					border: 2px solid #F09837;
+					background: $yellow;
+					border: 2px solid $yellow;
 					color: #252e68;
 					letter-spacing: 0.5px;
 					position: relative;

@@ -9,7 +9,8 @@ get_header(); ?>
 	<section class="content">
 		<div class="flex-row">
 			<div class="col-left">
-				<?php
+				<div class="container">
+					<?php
 				while ( have_posts() ) : the_post();
 
 					get_template_part( 'template-parts/content', 'page' );
@@ -21,10 +22,7 @@ get_header(); ?>
 
 				endwhile;
 				?>
-			</div>
-			<?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-			<div class="col-right" style="background-image: url('<?php echo $image[0]; ?>'); background-size:cover;">
-
+				</div>
 			</div>
 		</div>
 	</section>

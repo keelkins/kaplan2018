@@ -33,13 +33,15 @@ footer {
 
 		p {
 			color: white;
-			font-size: 14px;
+			font-size: 16px;
 			line-height: 1.5em;
 
 			span {
 				font-weight: 600;
 				color: $teal;
 				display: block;
+				font-size: 18px;
+				line-height: 2em;
 			}
 
 			a {
@@ -123,7 +125,7 @@ footer {
 			.gfield_description {
 				padding-top: 5px;
 				font-weight: 300;
-				font-size: 14px;
+				font-size: 16px;
 				color: white;
 			}
 		}

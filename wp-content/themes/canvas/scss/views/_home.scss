@@ -577,6 +577,9 @@ body.home {
 
 	section.home-consult-cta-2 {
 		text-align: center;
+		background: url(/wp-content/themes/canvas/img/kaplan-patient-photo.jpg);
+		@include bgcover;
+		background-position: 50% 40%;
 
 		@media screen and (max-width: $mediumdevice) {
 			display: none;

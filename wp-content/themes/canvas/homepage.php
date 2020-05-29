@@ -248,12 +248,12 @@ get_header(); ?>
 			<div class="container">
 				<div class="boxed-wrapper">
 					<div class="row">
-						<div class="col-xs-12 col-sm-3 col-sm-offset-1 bordered">
+						<div class="col-xs-12 col-sm-4 bordered">
 							<h4>Contact Us</h4>
 							<p><span>PH </span><a href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true" style="margin:0 5px 0 0;"></i><i class="fa fa-comment" aria-hidden="true" style="margin:0 5px 0 0;"></i> (770) 458-5561</a></p>
 							<p><span>FAX</span>770.457.4523</p>
 							<p><span>EMAIL</span><a href="mailto:info@jkaplanortho.com">info@jkaplanortho.com</a></p>
-							<p><span>ADDRESS</span>4700 Chamblee Dunwoody Rd. Ste.<br/>300, Dunwoody, GA 30338</p>
+							<p style="margin: 0;"><span>ADDRESS</span>4700 Chamblee Dunwoody Rd. Ste.<br/>300, Dunwoody, GA 30338</p>
 						</div>
 						<div class="col-xs-12 col-sm-7 col-sm-offset-1">
 							<div class="row">

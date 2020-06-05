@@ -14,11 +14,12 @@
 
 	&:before {
 		content: "Menu";
-		font-size: 12px;
+		font-size: 16px;
+		letter-spacing: .5px;
 		text-transform: uppercase;
 		font-weight: 700;
 		position: absolute;
-		left: -30px;
+		left: -45px;
 		top: 50%;
 		transform: translateY(-50%);
 		color: #999;
@@ -126,8 +127,8 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 			}			
 
 			a {
-				font-weight: 700;
-				font-size: 1em;
+				font-weight: bold;
+				font-size: 16px;
 				padding: 0 20px;
 				display: block;
 				border-top: $li-border;
@@ -201,7 +202,7 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 				position: relative;
 				float: none;
 				background: darken($teal, 5%);
-				padding: 0;				
+				padding: 15px 0;				
 
 				&.active {
 					display: block;
@@ -227,9 +228,10 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 						font-size: 1.25em;
 						padding: 0 20px;
 						display: block;
-						font-weight: normal;	
-						line-height: 3em;
-						font-size: 15px;	
+						font-weight: bold;
+    					line-height: 2.5em;
+    					font-size: 16px;
+    					letter-spacing: .5px;
 						border: 0 !important;
 						text-transform: uppercase;
 					}
@@ -264,7 +266,9 @@ $li-border: 1px solid rgba(255,255,255,0.35);
 				color: white;
 				padding: 0 20px;
 				line-height: 1.5em;
-				font-size: 14px;
+				font-size: 16px;
+				font-weight: bold;
+				letter-spacing: .5px;
 
 				&:hover {
 					opacity: .5;

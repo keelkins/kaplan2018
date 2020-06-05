@@ -40,10 +40,11 @@
 	}
 
 	h4 {
-		font-size: 14px;
+		font-size: 16px;
 		color: $teal;
 		text-transform: uppercase;
 		margin: 0 0 30px;
+		letter-spacing: .5px;
 	}
 
 	p {
@@ -57,7 +58,8 @@
 			font-weight: 600;
 			color: $teal;
 			display: block;
-			font-size: 14px;
+			font-size: 16px;
+			letter-spacing: .5px;
 		}
 
 		a {

@@ -8,7 +8,7 @@ get_header(); ?>
 <main>
 	<section class="banner">
 			<div class="home-message">
-				<h1>Your New Smile's Waiting</h1>
+				<h1>Your New Smile is Waiting</h1>
 				<a href="/get-started/" class="arrow-link">Schedule Your Free Consult <span>&rarr;</span></a>
 			</div>
 			<div class="bgvideo">
@@ -33,7 +33,7 @@ get_header(); ?>
 							<div class="image-block round">
 								<div class="image-block-outer">
 									<div class="image-block-inner">
-										<img src="/wp-content/themes/canvas/img/kaplan-orthodontics-staff-smiling-with-patient.jpg" alt="staff smiling">
+										<img src="/wp-content/themes/canvas/img/weHaveYouCovered.jpg" alt="staff smiling">
 									</div>
 								</div>
 							</div>
@@ -53,7 +53,7 @@ get_header(); ?>
 							<div class="image-block round">
 								<div class="image-block-outer">
 									<div class="image-block-inner">
-										<img src="/wp-content/themes/canvas/img/dr-kaplan-home-headshot-final.jpg" alt="dr.kaplan smiling">
+										<img src="/wp-content/themes/canvas/img/meetDrkaplan.jpg" alt="dr.kaplan smiling">
 									</div>
 								</div>
 							</div>
@@ -75,8 +75,8 @@ get_header(); ?>
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 cta">
 						<div class="cta-wrapper">
-							<h3>Our Office Rocks</h3>
-							<p>See our comfortable and high-tech office.</p>
+							<h3 class="cta-headline">Our Office Rocks</h3>
+							<p class="cta-copy">See our comfortable and high-tech office.</p>
 							<div class="image-cta office">
 								<div class="cta-info">
 									<img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
@@ -88,8 +88,8 @@ get_header(); ?>
 					</div>
 					<div class="col-xs-12 col-sm-4 cta">
 						<div class="cta-wrapper padded">
-							<h3>Ortho for All Ages</h3>
-							<p>Find custom treatment plans for children, teens and adults.</p>
+							<h3 class="cta-headline">Ortho for All Ages</h3>
+							<p class="cta-copy">Find custom treatment plans for children, teens and adults.</p>
 							<div class="image-cta technology">
 								<div class="cta-info">
 									<img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
@@ -101,8 +101,8 @@ get_header(); ?>
 					</div>
 					<div class="col-xs-12 col-sm-4 cta">
 						<div class="cta-wrapper padded">
-							<h3>Warm & Friendly Staff</h3>
-							<p>Feel right at home.</p>
+							<h3 class="cta-headline">Warm & Friendly Staff</h3>
+							<p class="cta-copy">Feel right at home.</p>
 							<div class="image-cta staff">
 								<div class="cta-info">
 									<img src="/wp-content/themes/canvas/img/zig-zag-white.svg" alt="zig-zag icon" class="cta-icon">
@@ -129,7 +129,7 @@ get_header(); ?>
 							<div class="image-block round">
 								<div class="image-block-outer">
 									<div class="image-block-inner">
-										<img src="/wp-content/themes/canvas/img/dr-kaplan-smiling-with-woman-patient.jpg" alt="woman smiling">
+										<img src="/wp-content/themes/canvas/img/getTreatedLikeFamily.jpg" alt="woman smiling">
 									</div>
 								</div>
 							</div>

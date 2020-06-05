@@ -11,6 +11,15 @@ body.home {
 		@media screen and (max-width: $mediumdevice) {
 			height: 450px;
 		}		
+	
+
+		&:before {
+
+			@media screen and (max-width: $mediumdevice) {
+				@include overlay;
+				opacity: .5;
+			}
+		}	
 
 		.bgvideo {
 
@@ -23,25 +32,41 @@ body.home {
 					top: 0;
 					left: 50%;
 					transform: translateX(-50%);					
-				}				
+				}	
+
+				@media screen and (max-width: 1200px) {
+					height: 600px;
+					position: relative;
+				}
+
+				@media screen and (max-width: $mediumdevice) {
+					height: 450px;
+					position: relative;
+				}			
 			}
 		}
 
 		.home-message {
 			position: absolute;
-			bottom: 50px;
-			left: 50px;
-			padding: 50px;
-			background: #222d4099;
+			bottom: 70px;
+			left: 70px;
+			padding: 100px 50px;
+			background: white;
 			z-index: 2;
-			max-width: 400px;
+			width: 450px;
+			height: 450px;
+			border-radius: 1000px;
+			text-align: center;
 
 			@media screen and (max-width: $mediumdevice) {
 				bottom: 5%;
+				top: 50%;
 				left: 5%;
 				padding: 20px;
 				max-width: 90%;
-				width: 400px;				
+				width: 400px;
+				background: none;
+				text-align: left;
 			}
 
 			&:before {
@@ -49,25 +74,32 @@ body.home {
 				content: "";
 				height: calc(100% + 25px);
 				width: calc(100% + 25px);
-				border: 5px solid #222d4099;
+				border: 5px solid white;
 				top: 50%;
 				left: 50%;
 				transform: translateX(-50%) translateY(-50%);
 				z-index: -1;
+				border-radius: 1000px;
+
+				@media screen and (max-width: $mediumdevice) {
+					border: none;
+				}
 			}
 
 			h1 {
 				font-weight: 700;
 				font-size: 55px;
-				color: white;
+				color: $teal;
 				letter-spacing: 0;
-				text-align: left;
-				line-height: 65px;
-				margin: 0 0 20px;
+				line-height: 60px;
+				margin: 15px 0 20px;
+				text-align: center;
 
 				@media screen and (max-width: $mediumdevice) {
 					font-size: 35px;
 					line-height: 1.25em;
+					text-align: left;
+					color: white;
 				}
 			}
 
@@ -96,7 +128,7 @@ body.home {
 
 			p {
 				margin: 0 0 30px;
-				font-size: 16px;
+				font-size: 20px;
 			}
 		}
 
@@ -106,12 +138,31 @@ body.home {
 			}
 		}
 
+		.cta-headline {
+
+			@media screen and (max-width: 1050px) {
+				height: 40px;
+			}
+		}
+
+		.cta-copy {
+
+			@media screen and (max-width: 1050px) {
+				height: 40px;
+			}
+		}
+
 		.image-cta {
 			padding: 250px 50px 50px;
 			text-align: left;
 			position: relative;
 			overflow: hidden;
-			min-height: 600px;
+			height: 600px;
+
+			@media screen and (max-width: 1400px) {
+				height: 400px;
+				padding: 100px 50px 50px;
+			}
 
 			@media screen and (max-width: $mediumdevice) {
 				padding: 100px 50px 50px;
@@ -142,6 +193,11 @@ body.home {
 					color: $dkblue;
 					line-height: 48px;
 					margin: 0 0 20px;
+
+					@media screen and (max-width: 1400px) {
+						font-size: 20px;
+						line-height: 32px;
+					}
 				}
 
 				.arrow-link {
@@ -150,17 +206,17 @@ body.home {
 			}
 
 			&.office {
-				background: url(/wp-content/themes/canvas/img/dr-kaplan-and-patient-giving-thumbs-up.jpg);
+				background: url(/wp-content/themes/canvas/img/ourOfficeRocks.jpg);
 				@include bgcover;
 			}
 
 			&.technology {
-				background: url(/wp-content/themes/canvas/img/girl-getting-x-ray.jpg);
+				background: url(/wp-content/themes/canvas/img/orthoForAllAges.jpg);
 				@include bgcover;
 			}
 
 			&.staff {
-				background: url(/wp-content/themes/canvas/img/dr-kaplan-smiling-with-teen-patient.jpg);
+				background: url(/wp-content/themes/canvas/img/warmAndFriendlyStaff.jpg);
 				@include bgcover;
 			}
 
@@ -612,6 +668,8 @@ body.home {
 		.btn {
 			position: relative;
 			z-index: 2;
+			background: $yellow;
+			color: $dkblue;
 		}
 	}
 

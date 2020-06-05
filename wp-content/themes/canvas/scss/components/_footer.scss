@@ -12,6 +12,31 @@ footer {
 		}
 	}
 
+	::-webkit-input-placeholder {
+   	color: $teal !important;
+   	opacity: 1 !important;
+   	font-size: 20px !important;
+	}
+	:-moz-placeholder { /* Firefox 18- */
+	   color: $teal !important;  
+	}
+	::-moz-placeholder {  /* Firefox 19+ */
+	   color: $teal !important;  
+	}
+	:-ms-input-placeholder {  
+	   color: $teal !important;  
+	}
+
+	.gform_wrapper div.validation_error {
+		color: #f2f2f2;
+	    border-top: 2px solid #f2f2f2;
+	    border-bottom: 2px solid #f2f2f2;
+	}
+
+	.gform_wrapper .validation_message {
+    	color: #f2f2f2;
+	}
+
 	.wrapper {
 		background: $dkblue;
 		padding: 75px 55px 55px;
@@ -33,14 +58,15 @@ footer {
 
 		p {
 			color: white;
-			font-size: 18px;
+			font-size: 20px;
 			line-height: 1.5em;
+			padding-right: 20px;
 
 			span {
 				font-weight: 600;
 				color: $teal;
 				display: block;
-				font-size: 18px;
+				font-size: 32px;
 				line-height: 2em;
 			}
 
@@ -76,7 +102,7 @@ footer {
 				-webkit-align-items: stretch;
 				-ms-flex-align: stretch;
 				align-items: stretch;
-				width: calc(100% - 150px);
+				width: calc(100% - 210px);
 
 				@media screen and (max-width: 590px) {
 					width: 100%;
@@ -111,10 +137,10 @@ footer {
 				background: transparent;
 				border: 0 !important;
 				border-bottom: 2px solid white !important;
-				padding: .35em 0 !important;
+				padding: .2em 0 !important;
 				font-weight: 300 !important;
-				font-size: 18px;
-				color: #5D636B;
+				font-size: 20px;
+				color: white !important;
 				width: 100% !important;
 
 				@media screen and (max-width: 590px) {
@@ -123,9 +149,9 @@ footer {
 			}
 
 			.gfield_description {
-				padding-top: 5px;
+				padding-top: 0;
 				font-weight: 300;
-				font-size: 16px;
+				font-size: 20px;
 				color: white;
 			}
 		}
@@ -150,13 +176,13 @@ footer {
 				@include trans;
 				height: 44px;
 				font-weight: 600;
-				font-size: 14px !important;
+				font-size: 18px !important;
 				color: $dkblue;
 				letter-spacing: 0;
 				text-align: left;
 				line-height: 44px;
 				background: white;
-				padding: 0 20px;
+				padding: 0 36px;
 
 				&:hover {
 					background: $teal;
@@ -172,7 +198,7 @@ footer {
 
 		// Copyright
 		.copy {
-			font-size: 14px;
+			font-size: 16px;
 			color: white;
 			margin: 0;
 
@@ -180,6 +206,8 @@ footer {
 				font-weight: 600;
 				color: $teal;
 				text-transform: uppercase;
+				font-size: 16px;
+				letter-spacing: .5px;
 			}
 		}
 

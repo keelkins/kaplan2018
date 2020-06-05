@@ -28,7 +28,7 @@ body.blog {
 
 			.message-content {
 				padding: 30px;
-				background: white;
+				// background: white;
 				max-width: 475px;
 				width: 100%;
 
@@ -37,12 +37,13 @@ body.blog {
 				}
 
 
-				h1, p {
+				p {
 					color: $dkblue;
 				}		
 
 				h1 {
-					font-size: 16px;
+					color: $teal;
+					// font-size: 40px;
 				}
 
 				p {
@@ -79,6 +80,7 @@ body.blog {
 			h3.entry-title a {
 				font-size: 25px;
 				color: $dkblue;
+				line-height: 1em;
 			}	
 
 			&:hover {
@@ -90,7 +92,7 @@ body.blog {
 		}
 
 		.sidebar {
-			background: $ltteal;
+			background: $teal;
 			padding: 20px;
 			margin: 0 0 40px;
 
@@ -102,6 +104,10 @@ body.blog {
 					display: inline-block;
 					margin: 0 20px 0 0;
 				}
+
+			p {
+				font-size: 20px;
+			}
 
 			}
 
@@ -122,7 +128,7 @@ body.blog {
 
 					a {
 						color: $teal;
-						font-size: 14px;
+						font-size: 20px;
 					}
 				}
 			}
@@ -141,7 +147,7 @@ body.blog {
 			}		
 
 			a, span {
-				border: 1px solid $grey;
+				border: none;
 			}
 		}		
 	}

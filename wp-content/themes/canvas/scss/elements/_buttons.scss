@@ -38,6 +38,8 @@ $default-btn-border-color: $default-btn-bg-color;
 	outline: 0;
 	cursor: pointer;
 	position: relative;
+	margin-left: 12px;
+	margin-right: 12px;
 
 	span {
 		@include trans;
@@ -135,7 +137,7 @@ $default-btn-border-color: $default-btn-bg-color;
 .arrow-link {
 	font-weight: 600;
 	font-size: 18px;
-	color: $dkteal;
+	color: $teal;
 
 	span {
 		@include trans;

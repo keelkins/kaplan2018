@@ -112,7 +112,7 @@ header {
 		top: 0;
 	}
 
-	#utility-left, #utility-right {
+	#utility-left {
 		position: absolute;
 		color: $teal;
 		z-index: 999;
@@ -139,6 +139,36 @@ header {
 			}
 		}
 	}
+
+	#utility-right {
+		position: absolute;
+		color: $teal;
+		z-index: 999;
+		padding: 0;
+		margin: 0;
+		line-height: 44px;
+
+		@media screen and (max-width: 1200px) {
+			display: none;
+		}
+
+		li {
+			display: inline-block;
+			padding: 0 5px;
+			position: relative;
+			font-size: 20px;
+			color: $teal;
+			letter-spacing: 1.5px;
+			text-align: right;
+			font-weight: 600;
+
+			a {
+				color: $teal;
+			}
+		}
+	}
+
+
 
 
 

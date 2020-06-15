@@ -168,9 +168,9 @@ get_header(); ?>
 					<a href="https://jkaplanortho.com/dunwoody-invisalign/" class="arrow-link">Read More <span>&rarr;</span></a>
 				</div>
 				<div class="cta-block">
-					<img src="/wp-content/themes/canvas/img/acceledent-logo.png" alt="AcceleDent Logo">
-					<h3>Accelerated Orthodontics</h3>
-					<p>Easy, Comfortable, Quick</p>
+					<img src="/wp-content/themes/canvas/img/braces.png" alt="Metal Braces Icon">
+					<h3>Metal Braces</h3>
+					<p>Reliable, Durable & Affordable</p>
 					<a href="/accelerated-orthodontics/" class="arrow-link">Read More <span>&rarr;</span></a>
 				</div>
 				<div class="cta-block">
@@ -251,8 +251,8 @@ get_header(); ?>
 						<div class="col-xs-12 col-sm-4 bordered">
 							<h4>Contact Us</h4>
 							<p><span>PH </span><a href="tel:7704585561"><i class="fa fa-phone" aria-hidden="true" style="margin:0 5px 0 0;"></i><i class="fa fa-comment" aria-hidden="true" style="margin:0 5px 0 0;"></i> (770) 458-5561</a></p>
-							<p><span>FAX</span>770.457.4523</p>
-							<p><span>EMAIL</span><a href="mailto:info@jkaplanortho.com">info@jkaplanortho.com</a></p>
+<!-- 							<p><span>FAX</span>770.457.4523</p>
+ -->							<!-- <p><span>EMAIL</span><a href="mailto:info@jkaplanortho.com">info@jkaplanortho.com</a></p> -->
 							<p style="margin: 0;"><span>ADDRESS</span>4700 Chamblee Dunwoody Rd. Ste.<br/>300, Dunwoody, GA 30338</p>
 						</div>
 						<div class="col-xs-12 col-sm-7 col-sm-offset-1">
@@ -282,6 +282,7 @@ get_header(); ?>
 									<ul>
 										<li><a href="https://www.facebook.com/kaplanorthodontics" target="_blank">Facebook</a></li>
 										<li><a href="https://www.instagram.com/kaplanorthodontics" target="_blank">Instagram</a></li>
+										<li><a href="https://twitter.com/jkaplanortho" target="_blank">Twitter</a></li>
 										<li><a href="https://www.yelp.com/biz/kaplan-orthodontics-dunwoody" target="_blank">Yelp</a></li>
 										<li><a href="https://goo.gl/Q8ixuu" target="_blank">Google Reviews</a></li>
 										<!-- <li><a href="http://www.smiledash.com" target="_blank">My Account</a></li> --> 

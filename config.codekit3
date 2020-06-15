@@ -38996,6 +38996,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/braces.png": {
+		"ft": 32768,
+		"iS": 6372,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/braces.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -39515,6 +39526,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/metal-braces.png": {
+		"ft": 32768,
+		"iS": 4052,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/metal-braces.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/wp-content/themes/canvas/img/mstile-150x150.png": {

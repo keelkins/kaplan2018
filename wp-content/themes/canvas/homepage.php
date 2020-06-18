@@ -171,7 +171,7 @@ get_header(); ?>
 					<img src="/wp-content/themes/canvas/img/braces.png" alt="Metal Braces Icon">
 					<h3>Metal Braces</h3>
 					<p>Reliable, Durable & Affordable</p>
-					<a href="/accelerated-orthodontics/" class="arrow-link">Read More <span>&rarr;</span></a>
+					<a href="https://jkaplanortho.com/dunwoody-metal-braces/" class="arrow-link">Read More <span>&rarr;</span></a>
 				</div>
 				<div class="cta-block">
 					<img src="/wp-content/themes/canvas/img/invisalign-teen.png" alt="Invisalign Teen Logo">

@@ -103,6 +103,7 @@ body.page-template-default {
 			top: 40%;
 			left: -60px;
 			z-index: -1;
+			display: none !important;
 		}
 
 		.right-parallax-image {
@@ -113,7 +114,8 @@ body.page-template-default {
 			top:75%;
 			right: 0;
 			z-index: -1;
-			opacity: .7;			
+			opacity: .7;
+			display: none !important;			
 		}
 
 		.fl-accordion-button-icon {

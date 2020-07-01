@@ -15,8 +15,6 @@ get_header(); ?>
 		</div>
 	</section>
 	<section id="page-content" class="content fade-element">
-		<div class="left-parallax-image rellax" data-rellax-speed="-4"></div>
-		<div class="right-parallax-image rellax" data-rellax-speed="3"></div>
 		<?php
 		while ( have_posts() ) : the_post();
 

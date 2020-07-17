@@ -74,7 +74,7 @@ get_header(); ?>
 				<img src="/wp-content/themes/canvas/img/zig-zag.svg" alt="zig-zag icon" class="intro-icon">
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 cta">
-						<div class="cta-wrapper">
+						<div class="cta-wrapper padded">
 							<h3 class="cta-headline">Our Office Rocks</h3>
 							<p class="cta-copy">See our comfortable and high-tech office.</p>
 							<div class="image-cta office">

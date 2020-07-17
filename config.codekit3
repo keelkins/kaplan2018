@@ -38996,6 +38996,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/braces.png": {
+		"ft": 32768,
+		"iS": 6372,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/braces.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/browserconfig.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -39178,7 +39189,7 @@
 		},
 	"/wp-content/themes/canvas/img/dr-kaplan.jpg": {
 		"ft": 16384,
-		"iS": 286800,
+		"iS": 200248,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/dr-kaplan.jpg",
@@ -39237,6 +39248,17 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/favicon.ico",
 		"oF": 0
+		},
+	"/wp-content/themes/canvas/img/getTreatedLikeFamily.jpg": {
+		"ft": 16384,
+		"iS": 297100,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/getTreatedLikeFamily.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/wp-content/themes/canvas/img/girl-getting-x-ray.jpg": {
 		"ft": 16384,
@@ -39363,7 +39385,7 @@
 		},
 	"/wp-content/themes/canvas/img/kaplan-dr-photo.jpg": {
 		"ft": 16384,
-		"iS": 422654,
+		"iS": 291401,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/kaplan-dr-photo.jpg",
@@ -39405,7 +39427,7 @@
 		},
 	"/wp-content/themes/canvas/img/kaplan-patient-photo.jpg": {
 		"ft": 16384,
-		"iS": 421499,
+		"iS": 300809,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/kaplan-patient-photo.jpg",
@@ -39495,6 +39517,28 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"/wp-content/themes/canvas/img/meetDrkaplan.jpg": {
+		"ft": 16384,
+		"iS": 138597,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/meetDrkaplan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/metal-braces.png": {
+		"ft": 32768,
+		"iS": 4052,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/metal-braces.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 4880,
@@ -39526,6 +39570,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/orthoForAllAges.jpg": {
+		"ft": 16384,
+		"iS": 381693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/orthoForAllAges.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/ourOfficeRocks.jpg": {
+		"ft": 16384,
+		"iS": 260724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/ourOfficeRocks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/wp-content/themes/canvas/img/parallax-shape-half-circle.svg": {
@@ -40047,6 +40113,28 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/wp-content/themes/canvas/img/warmAndFriendlyStaff.jpg": {
+		"ft": 16384,
+		"iS": 340802,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/warmAndFriendlyStaff.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/weHaveYouCovered.jpg": {
+		"ft": 16384,
+		"iS": 286430,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/weHaveYouCovered.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/wp-content/themes/canvas/img/zig-zag-white.svg": {
 		"ft": 2097152,

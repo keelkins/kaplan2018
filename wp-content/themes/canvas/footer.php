@@ -26,7 +26,7 @@
 		</div>
 	</div>
 	<div class="credits">
-		<p class="copy">&copy; <span class="year"></span> <?php echo get_bloginfo('name'); ?>. All Rights Reserved. <a href="/privacy-policy/">Privacy Policy.</a> | Site by <a href="https://neoncanvas.com">Neon Canvas</a></p>
+		<p class="copy">&copy; <span class="year"></span> <?php echo get_bloginfo('name'); ?>. All Rights Reserved. <a href="/privacy-policy/">Privacy Policy.</a> | <a class="open-userway">Accessibility Menu</a> | Site by <a href="https://neoncanvas.com">Neon Canvas</a></p>
 	</div>
 </footer>
 
@@ -50,9 +50,9 @@
 <nav id="side-menu">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 	<ul id="mobile-utility">
-		<li><a href="https://www.facebook.com/kaplanorthodontics">FACEBOOK</a></li>
-		<li><a href="https://www.instagram.com/kaplanorthodontics">INSTAGRAM</a></li>
-		<li><a href="http://www.smiledash.com" target="_blank">MY ACCOUNT &amp; APPOINTMENTS</a></li> 
+		<li><a href="https://www.facebook.com/kaplanorthodontics"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="https://www.instagram.com/kaplanorthodontics"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		<li><a href="http://www.smiledash.com" target="_blank">Patient Portal</a></li> 
 	</ul>
 </nav>
 

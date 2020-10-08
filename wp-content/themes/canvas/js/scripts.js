@@ -20,6 +20,16 @@ jQuery(function() {
 		jQuery(this).parent().addClass('fade');
 	});
 
+  /* Hide UserWay accessibility icon on init */
+  document.addEventListener("userway:init_completed", function(event) {
+    var instance = event.detail.userWayInstance;
+    instance.iconVisibilityOff();
+  });
+  /* Opens Userway widget on click */
+  document.querySelector('.open-userway').addEventListener('click', function(e) {
+  UserWay.widgetOpen();
+  });
+
     // Get current year for footer copyright
 	var currentYear = (new Date()).getFullYear();
 	jQuery('footer span.year').text(currentYear);
